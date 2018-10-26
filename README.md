@@ -1,5 +1,3 @@
-# saltgz.github.io
-
 Personal academic website repository, 
 made with Jekyll static web page generator and minima theme.
 

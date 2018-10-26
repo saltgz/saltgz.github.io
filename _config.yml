@@ -1,0 +1,18 @@
+lang: en
+title: Stefano Pio Zingaro - PhD student @ DISI UniBO
+author: SaltGZ
+email: stefanopio.zingaro [at] unibo [dot] it
+baseurl: "" 
+url: "https://saltgz.github.io"
+github_username:  saltgz
+location: >- # this means to ignore newlines
+  Laboratorio S04 - Department of Computer Science 
+  <br> and Engineering, Mura Anteo Zamboni, 7 
+  <br> 40126 Bologna ITALY
+markdown: kramdown
+google_analytics: UA-112361799-1
+theme: minima
+intro: >- # this means to ignore newlines
+        The Academic web site of Stefano Pio Zingaro<br>PhD student at 
+        Alma Mater Studiorum - University of Bologna<br>Department of 
+        Computer Science &amp; Engineering - DISI

@@ -1,0 +1,391 @@
+\documentclass[10pt]{beamer}
+
+\usetheme{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multimedia}
+\usepackage[official]{eurosym}
+\usepackage{hyperref}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\title{Base Knowledge of Statistic}
+\subtitle{Artificial Intelligence Master Course}
+\date{\today}
+\author{PhD Student Stefano Pio Zingaro}
+\institute{Department of Computer Science and Engineering \\ Universit\`a degli studi di Bologna}
+
+\begin{document}
+
+	\maketitle
+
+	\begin{frame}{Table of contents}
+		\setbeamertemplate{section in toc}[sections numbered]
+		\tableofcontents[hideallsubsections]
+	\end{frame}
+
+	\metroset{block=fill}
+
+	\begin{frame}{Premessa}
+
+		\begin{columns}
+			
+			\begin{column}{0.5\textwidth}
+
+			   \begin{block}{Di che cosa parleremo}
+       				
+       				\begin{itemize}
+       					
+       					\item Deep learning
+       					\item Feature Extraction
+       					\item PCA
+								\item Supervised Learning
+       					\item Unsupervised Learning
+       				
+       				\end{itemize}
+      			
+      			\end{block}
+
+			\end{column}
+
+			\begin{column}{0.5\textwidth}
+		    	
+		    	\begin{block}{Di che cosa NON parleremo}
+
+		        	\begin{itemize}
+       					
+       					\item Augmented reality
+								\item \alert{Big data}
+								\item Embodied agent
+								\item Logic programming
+								\item Multi-agent system
+								\item Spatial-temporal reasoning
+       				
+       				\end{itemize}
+		      	
+		      	\end{block}
+
+			\end{column}
+		
+		\end{columns}
+	
+	\end{frame}
+
+	\section{Formulazione dell'Ipotesi}
+
+	\begin{frame}{Ipotesi}
+
+		\begin{itemize}
+
+			\item Quando si effettua un esperimento vengono formulate delle ipotesi.
+			\item Per ognuna delle ipotesi, viene fissata una confidenza.
+			\item È possibile valutare quanto i risultati dell'esperimento sono in accordo con l'ipotesi grazie ai test di significatività, calcolando il $p_{value} $(\textit{livello di significatività osservato}).
+
+		\end{itemize}
+
+		\begin{exampleblock}{Esempio}
+
+			Se la confidenza desiderata è 95\%  allora $\alpha = 1 - 0.95 = 0.05$, $\alpha$ viene detto \textit{livello di significatività atteso}
+
+		\end{exampleblock}
+
+	\end{frame}
+
+	\begin{frame}{Workflow}
+
+		\begin{enumerate}
+
+			\item Ipotesi $H$ (non dovuto al caso)\\VS\\Ipotesi $H_0$ (dovuto al caso)
+			\item Risultati Sperimentali $X=(x_1,x_2,x_3,...,x_n)$
+			\item Probabilità dei risultati data l'ipotesi $P(X|H_0)$
+			\item Test di Significatività
+			
+			\begin{itemize}
+
+				\item $(p_{value}>\alpha)\rightarrow$ \textbf{Non Rigetto} $H_0$
+				\item $(p_{value}<=\alpha)\rightarrow$ \textbf{Rigetto} $H_0$
+
+			\end{itemize}
+
+		\end{enumerate}
+
+		\begin{alertblock}{Attenzione}
+	
+			Se l'ipotesi $H_0$ viene respinta al livello di significatività $5$\%, allora abbiamo il $5$\% di probabilità di respingere un'ipotesi che era vera.
+	
+		\end{alertblock}
+	
+		\tiny{Fonte: \url{http://www.quadernodiepidemiologia.it/epi/assoc/t_stu.htm}}
+
+	\end{frame}
+
+	\section{Raccolta dei Dati}
+
+		\begin{frame}{Raccolta dei Dati}
+
+			\begin{exampleblock}{Esempio}
+				\textbf{Ipotesi $H$}\\
+				“L'età di una persona influisce sulla sua altezza”\\
+				\textbf{Domanda}\\
+				Quali dati sarà più utile raccogliere?\\
+				\begin{enumerate}
+					\item Altezza
+					\item Età
+					\item Sesso
+				\end{enumerate}
+			\end{exampleblock}
+	
+		\end{frame}
+
+	\section{Analisi Statistica dei Dati}
+
+	\begin{frame}{Perché l'Analisi Statistica dei Dati?}
+
+		\begin{block}{Esperimento} 
+		  Gli esperimenti producono un flusso di DATI. 
+		\end{block}
+		
+		\begin{block}{Interpretazione} 
+		  I dati, interpretati, possono dare un significato all'esperimento. Spesso vengono ricercate: 
+		  \begin{itemize} 
+		  	\item Differenze tra le misurazioni; 
+		  	\item Invarianti del sistema studiato.
+		  \end{itemize}
+		\end{block}
+		
+		\begin{block}{Analisi} 
+		  Diventa necessaria un'attenta Analisi Statistica.
+		\end{block}
+
+	\end{frame}
+
+	\begin{frame}{Rappresentazione dei Dati: Gli Istogrammi}
+
+		\begin{figure}[1]
+			\includegraphics[scale=0.45]{img/1.png}
+			\caption{\small{L'istogramma è una rappresentazione grafica di una distribuzione di frequenza di una certa grandezza, ossia di quante volte in un insieme di dati si ripete lo stesso valore.}}
+		\end{figure}
+
+	\end{frame}
+
+	\begin{frame}{Descrizione dei Dati: le Distribuzioni}
+
+		\begin{itemize}
+			\item \textbf{Distribuzione Binomiale} Variabili che prendono i loro valori da un insieme discreto (eg. La probabilità di avere $k$ eventi positivi su $n$ eventi indipendenti).
+			\item \textbf{Distribuzione Normale} Variabili che prendono i loro valori da un insieme continuo (eg. La probabilità di ottenere valori di $x$ in un intervallo infinitesimo).
+		\end{itemize}
+
+	\end{frame}
+
+	\begin{frame}{Distribuzione Binomiale per le Variabili Discrete}
+
+		\begin{alertblock}{Definizione}
+	      $P(k)=P(X_1+X_2+...+X_n=k)=\binom{n}{k}p^k(1-p)^{n-k}$
+		\end{alertblock}
+
+		\begin{figure}[2]
+			\includegraphics[scale=0.4]{img/2.png}
+			\caption{\tiny{Distribuzioni binomiali con diversi parametri $p$ e $n$.}}
+		\end{figure}
+
+	\end{frame}
+
+	\begin{frame}{Distribuzione Normale per le Variabili Continue}
+
+		\begin{alertblock}{Definizione}
+			$f(x)={\frac  {1}{\sigma {\sqrt  {2\pi }}}}\;e^{{-{\frac{\left(x-\mu \right)^{2}}{2\sigma ^{2}}}}}~{\mbox{ con }}~x\in {\mathbb  {R}}.$
+		\end{alertblock}
+
+		\begin{figure}[3]
+			\includegraphics[scale=0.4]{img/3.png}
+			\caption{\tiny{Gaussiana con vari parametri di media $\mu$ e varianza $\sigma^2$}}
+		\end{figure}
+
+	\end{frame}
+
+	\subsection{La Significatività}
+
+	\begin{frame}{Test di Significatività Parametrici}
+
+		\begin{alertblock}{Definizione}
+			Il test di significatività parametrico prevede il confronto tra due distribuzioni \alert{\textbf{normali}} (eg. medie, varianze). 
+		\end{alertblock}
+
+		\begin{itemize}
+			\item Confronto delle Medie
+			\begin{enumerate}
+				\item Z-test \footnote{\tiny{\url{https://it.wikipedia.org/wiki/Test_Z}}}
+				\item T-Test \footnote{\tiny{\url{https://it.wikipedia.org/wiki/Test_t}}}
+			\end{enumerate}
+			\item Confronto delle Varianze
+			\begin{enumerate}
+				\item ANOVA \footnote{\tiny{\url{https://it.wikipedia.org/wiki/Analisi_della_varianza}}}
+				\item Test Chi-Quadrato \footnote{\tiny{\url{https://it.wikipedia.org/wiki/Test_chi_quadrato}}}
+			\end{enumerate}
+		\end{itemize}
+
+	\end{frame}
+
+	\begin{frame}{Test di Significatività NON Parametrici}
+
+		\begin{alertblock}{Definizione}
+			Il test di significatività NON parametrico prevede il confronto tra due distribuzioni \alert{\textbf{NON normali}} (eg. medie, varianze). 
+		\end{alertblock}
+
+		\begin{itemize}
+			\item Test del Segno \footnote{\tiny{\url{https://it.wikipedia.org/wiki/Test_dei_segni}}}
+			\item Test di Wilcoxon \footnote{\tiny{\url{https://it.wikipedia.org/wiki/Test_dei_ranghi_con_segno_di_Wilcoxon}}}
+		\end{itemize}
+
+	\end{frame}
+
+	\begin{frame}{Estrazione delle Proprietà Rilevanti}
+
+		\begin{itemize}
+			\item Correlazione di Pearson~\footnote{\tiny{\url{https://it.wikipedia.org/wiki/Indice_di_correlazione_di_Pearson}}}
+			\item Correlazione di Spearman~\footnote{\tiny{\url{https://it.wikipedia.org/wiki/Coefficiente_di_correlazione_per_ranghi_di_Spearman}}}
+			\item Principal Component Analysis (PCA)~\footnote{\tiny{\url{https://it.wikipedia.org/wiki/Analisi_delle_componenti_principali}}}
+		\end{itemize}
+	
+	\end{frame}
+
+	\begin{frame}{PCA: Principal Component Analysis}
+
+		\begin{alertblock}{Definizione}
+			L'analisi delle componenti principali è una tecnica per la semplificazione dei dati. Permette di scegliere in quante componenti \textbf{ridurre le dimensioni del problema}.
+		\end{alertblock}
+
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+
+				\begin{figure}[4]
+					\includegraphics[scale=0.15]{img/figure_3.png}
+					\caption{\tiny{Rappresentazione grafica di due classi di punti a $3$ dimensioni}}
+				\end{figure}
+
+			\end{column}
+
+			$\rightarrow$
+
+			\begin{column}{0.5\textwidth}
+
+				\begin{figure}[5]
+					\includegraphics[scale=0.2]{img/figure_4.png}
+					\caption{\tiny{Rappresentazione grafica delle classi precedenti dopo l'applicazione di una PCA a 2 componenti.}}
+				\end{figure}
+
+			\end{column}
+		\end{columns}
+
+	\end{frame}
+
+	\section{Generalizzazione delle Ipotesi}
+		
+	\begin{frame}{Metodi di Generalizzazione delle Ipotesi}
+
+		\begin{itemize}
+			
+			\item Supervised (apprendimento da esempi reali)
+				
+				\begin{itemize}
+
+					\item Neural Networks \footnote{\tiny{\url{https://it.wikipedia.org/wiki/Rete_neurale_artificiale}}}
+
+					\item Hidden Markov Models \footnote{\tiny{\url{https://it.wikipedia.org/wiki/Modello_di_Markov_nascosto}}}
+
+					\item Support Vector Machines \footnote{\tiny{\url{https://it.wikipedia.org/wiki/Macchine_a_vettori_di_supporto}}}
+
+				\end{itemize}
+
+			\item Unsupervised (o semi-supervised/apprendimento ex-novo)
+
+				\begin{itemize}
+
+					\item Hierarchical clustering \footnote{\tiny{\url{https://it.wikipedia.org/wiki/Clustering_gerarchico}}}
+					
+					\item K-means \footnote{\tiny{\url{https://it.wikipedia.org/wiki/K-means}}}
+
+				\end{itemize}
+
+		\end{itemize}
+	
+	\end{frame}
+
+	\section{Python's Machine Learning's Frameworks}
+
+	\begin{frame}{Tensor Flow}
+
+		\begin{itemize}
+			\item Libreria disponibile in diversi linguaggi di programmazione per il calcolo scientifico.
+			\item Abilita la potenza della GPU (NVIDIA CUDA®) per il calcolo computazionale.
+			\item Installazione in Python 2.7 con \textit{pip}:
+				\begin{enumerate}
+					\item \texttt{pip install tensorflow }
+					\item \texttt{pip install tensorflow-gpu}
+				\end{enumerate}
+			\item Documentazione esaustiva e Tutorials disponibili su \url{https://www.tensorflow.org}.
+		\end{itemize}
+			
+	\end{frame}
+
+	\begin{frame}{Keras}
+
+		\begin{itemize}
+			\item Installazione in Python 2.7 con \textit{pip}:
+				\begin{enumerate}
+					\item \texttt{pip install keras}
+				\end{enumerate}
+			\item Codice della libreria con esempi su \url{https://github.com/fchollet/keras/tree/master/keras}.
+		\end{itemize}
+			
+	\end{frame}
+
+	\begin{frame}{PyTorch}
+
+		\begin{itemize}
+			\item Installazione in Python 2.7 con \textit{pip}:
+				\begin{enumerate}
+					\item \texttt{pip install \url{http://download.pytorch.org/whl/torch-0.1.11.post5-cp27-none-macosx_10_7_x86_64.whl}}
+					\item \texttt{pip install torchvision}
+				\end{enumerate}
+			\item Documentazione ed esempi di codice su \url{http://pytorch.org/docs/}.
+		\end{itemize}
+			
+	\end{frame}
+
+	\section{Conclusioni}
+
+	\begin{frame}{Summary}
+
+	  Get the source of this work and the demo presentation from
+
+	  \begin{center}\url{stefanopiozingaro.github.io/teaching.html}\end{center}
+
+	  This work \emph{itself} is licensed under a
+	  \href{http://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons
+	  Attribution-ShareAlike 4.0 International License}.
+
+	  \begin{center}\ccbysa\end{center}
+
+	\end{frame}
+
+	\begin{frame}[standout]
+	  Questions?
+	\end{frame}
+
+	\appendix
+
+\end{document}

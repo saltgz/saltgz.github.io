@@ -6,9 +6,13 @@ baseurl: ""
 url: "https://saltgz.github.io"
 github_username:  saltgz
 location: >- # this means to ignore newlines
-  Laboratorio S04 - Department of Computer Science 
+  <a href="http://w3w.co/invitato.inclinati.sostenute">Institut for Matematik og Datalogi
+  <br>Campusvej 55, Ø18-511a-2 
+  <br> 5230 Odense M DENMARK</a>
+  <br>
+  <del><a href="http://w3w.co/rotaie.piastra.tavola">Laboratorio S04 - Department of Computer Science 
   <br> and Engineering, Mura Anteo Zamboni, 7 
-  <br> 40126 Bologna ITALY
+  <br> 40126 Bologna ITALY</a></del>
 markdown: kramdown
 google_analytics: UA-112361799-1
 theme: minima

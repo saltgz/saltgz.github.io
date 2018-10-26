@@ -7,7 +7,7 @@ permalink: teaching.html
 <div class="panel-group" id="accordion">
   
 {% assign counter = 1 %}
-{% assign sorted-posts = site.posts | where: "categories","teachings" %}
+{% assign sorted-posts = site.posts | where: "categories","teaching" %}
 {% for item in sorted-posts %}
  
 <div class="panel panel-danger">

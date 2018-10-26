@@ -9,3 +9,4 @@ ade with Jekyll static web page generator and minima theme.
 - Specify contributions for each publication in `publications` posts;
 - Publication should take advantage of `Scholar` gem in order 
 to produce automatic bibliography from a *LateX* `biblio.bib` file.
+- Divide teaching per year, first, then per teaching

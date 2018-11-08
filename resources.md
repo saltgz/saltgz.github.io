@@ -23,3 +23,13 @@ plus some I collected personally.
 
 ## Pitch
 - [How to create 'Pecha Kucha' slides](https://www.pechakucha.org/presentations/how-to-create-slides)
+
+## Coding
+
+### Python
+- Free Jupyter notebook ephemeral environment [Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)
+
+## Education
+
+### Machine Learning
+- Collect examples, train a model and test it in scratch with [Machine Learning 4 Kids](https://machinelearningforkids.co.uk)

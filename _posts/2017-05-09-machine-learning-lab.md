@@ -62,7 +62,7 @@ shortdesc: "Il corso è indirizzato agli studenti del primo anno del corso di la
       <th scope="row">2</th> 
       <td>31/01/2018</td> 
       <td>Supporting material for Weka tutorial on classification with linear regression model and neural networks, clustering with k-means for behavioural analysis.</td> 
-      <td><a href="assets/teaching/esercizi/weka/">FOLDER</a></td> 
+      <td><a href="assets/teaching/esercizi/java/weka/">FOLDER</a></td> 
 
     </tr>
 

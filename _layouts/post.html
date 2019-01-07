@@ -1,0 +1,18 @@
+---
+layout: base
+---
+
+<article>
+  <header>
+    <h3>{{ page.title | escape }}</h3>
+    <p>
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+        -%} {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%} • {{ page.author | escape }} {%- endif -%}
+    </p>
+  </header>
+
+  {{ content }}
+</article>

@@ -1,0 +1,22 @@
+<p>
+  The academic web site of
+  <a href="{{ site.url | absolute_url }}"> {{ site.owner.name }} </a> <br />
+  {{ site.owner.role }} at
+  <a href="{{ site.institution.website }}"> {{ site.institution.name }} </a>
+  <br />
+  <a href="{{ site.office.website }}"> {{ site.office.name }} </a>
+</p>
+
+{% assign default_paths = site.pages | map: "path" %} {% assign paths =
+site.header_pages | default: default_paths %} {% if paths %}
+<div class="nav-scroller">
+  <nav class="nav d-flex justify-content-between">
+    {% for path in paths %} {% assign page = site.pages | where: "path", path |
+    first %} {% if page.title %}
+    <a class="p-2" href="{{ page.url | absolute_url }}">
+      {{ page.title | escape }}
+    </a>
+    {% endif %} {% endfor %}
+  </nav>
+</div>
+{% endif %}

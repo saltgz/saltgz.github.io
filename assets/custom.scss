@@ -1,0 +1,42 @@
+---
+# Front matter for proper conversion
+---
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+#site-header {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#site-content {
+  padding: 30px 0;
+}
+
+#site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+}

@@ -11,3 +11,4 @@ generator and customized theme using CSS of bootstrap 4 and font awesome 5, Java
   - Eit digital doctoral school, with BDM, GH.
 - Add research idea and thesis works;
 - Specify contributions for each publication in `publications` posts.
+- rearrange website

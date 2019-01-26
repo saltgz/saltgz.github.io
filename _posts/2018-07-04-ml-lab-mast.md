@@ -1,0 +1,26 @@
+---
+title: Representation, error and learning - Artificial Intelligence Lab
+categories: education
+image: /assets/img/featured/magritte-pipe.png
+---
+
+The goal of the laboratory is to make explicit the learning process for a
+software (`Machine`), through two simple and intuitive teaching
+activities (modules).
+The reference technique for Machine Learning that will be presented to the class
+is the `Artificial Neural Network` (ANN). This technique has distinguished itself
+in recent years, both in research and in industry, for its wide use in the
+classification of images, text and sounds.
+Explaining the classification process of an object involves three fundamental
+aspects:
+1. **the perception of the object** and/or its representation, its association
+with a class and its denomination;
+2. the comparison with known examples, the perception of differences with
+respect to the initial representation, **the recognition of the error**;  
+3. **the acquisition of new knowledge**, intended as an extension of previous
+knowledge that manifests itself through the ability to classify a new element
+(learning).
+
+The proposed modules are:
+- [Ceci n’est pas une pipe! This is not Artificial Intelligence!]()
+- [Error and Learning. When do the machines learn?]()

@@ -1,0 +1,13 @@
+items:
+- title: Home
+  url: index.html
+- title: Research
+  url: research/index.html
+# - title: Blog
+#   url: blog/index.html
+- title: Education
+  url: education/index.html
+- title: Resources
+  url: resources.html
+- title: Contacts
+  url: contacts.html

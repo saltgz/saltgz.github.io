@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="card">
+  <div class="card-body">
+    {% if site.data.style.main.blog.title %}
+    <h5 class="card-title">{{ page.title | escape }}</h5>
+    {% if page.subtitle %}
+    <h6 class="card-subtitle mb-2 text-muted">{{ page.subtitle | escape }}</h6>
+    {% endif %} {% endif %} {%- for post in site.posts -%} {%- assign condition
+    = true -%} {%- assign compare = page.title | downcase -%} {%- if page.scope
+    == 'authors' -%} {%- assign post_author = post.author | downcase -%} {%- if
+    post_author == compare -%} {%- assign condition = true -%} {%- else -%} {%-
+    assign condition = false -%} {%- endif -%} {%- elsif page.scope ==
+    'categories' -%} {%- if post.categories contains compare -%} {%- assign
+    condition = true -%} {%- else -%} {%- assign condition = false -%} {%- endif
+    -%} {%- endif -%} {%- if condition -%}
+
+    <div class="card mb-3">
+      {% if post.image %}
+      <img
+        src="{{ post.image }}"
+        class="card-img-top"
+        alt="Featured image of the post"
+      />
+      {% endif %}
+      <div class="card-body">
+        <a href="{{ post.url | relative_url | prepend: site.baseurl }}">
+          <h5 class="card-title">{{ post.title | escape }}</h5>
+        </a>
+        <p class="card-text">{{ post.excerpt | strip_html | truncate: 240 }}</p>
+        <p class="card-text">
+          <small class="text-muted"
+            >{%- if post.author -%}by {{ post.author }} | {%- endif -%}{{
+            post.date | date_to_long_string }}{%- if
+            site.data.style.main.article.word_count -%} | {{ post.content |
+            number_of_words }} words{%- endif -%}</small
+          >
+        </p>
+      </div>
+    </div>
+    {%- endif -%} {%- endfor -%}
+  </div>
+
+  <div class="card-footer ">
+    <p class="text-muted">{{ site.data.style.main.page.nav_message}}</p>
+    {%- for item in site.data.nav.items -%}
+    <a class="card-link badge badge-light" href="{{ item.url | absolute_url }}"
+      >{{ item.title | escape }}</a
+    >
+    {%- endfor -%}
+  </div>
+</div>

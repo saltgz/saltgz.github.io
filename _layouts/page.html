@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{ page.title | escape }}</h5>
+    {% if page.subtitle %}
+    <h6 class="card-subtitle mb-2 text-muted">{{ page.subtitle | escape }}</h6>
+    {% endif %}
+    <p class="card-text">{{ content }}</p>
+  </div>
+  <div class="card-footer ">
+    <p class="text-muted">{{ site.data.style.main.page.nav_message}}</p>
+
+    {%- for item in site.data.nav.items -%}
+    <a class="card-link badge badge-light" href="{{ item.url | absolute_url }}"
+      >{{ item.title | escape }}</a
+    >
+    {%- endfor -%}
+  </div>
+</div>

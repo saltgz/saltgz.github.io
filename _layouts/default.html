@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: en-US }}">
+  {%- include head.html -%}
+
+  <body
+    class="container"
+    style="font-weight:{{ site.data.style.main.font_weight }}"
+  >
+    <header class="border">{%- include header.html -%}</header>
+    <main id="content" role="main" class="py-2 text-justify">
+      {{ content | markdownify }}
+    </main>
+    {%- if site.data.style.header.navigation == false -%}
+    <footer class="p-5">{%- include footer.html -%}</footer>
+    {%- endif -%} {%- include script.html -%}
+  </body>
+</html>

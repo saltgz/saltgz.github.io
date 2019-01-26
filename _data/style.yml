@@ -1,0 +1,33 @@
+header:
+  navigation: true
+  align: "left" # "left" | "center" | "right"
+  text: >
+    The academic web site of <a href="https://saltgz.github.io">Stefano Pio Zingaro</a><br>
+    PhD student at <a href="https://www.unibo.it">Università di Bologna</a><br>
+    <a href="https://cs.unibo.it">Department of Computer Science &amp; Engineering </a>
+
+main:
+  font_weight: 300 # a custom value for the font-weight of the body
+  blog:
+    title: true
+    align: "left" # "left" | "center" | "right"
+  page:
+    nav_message: >
+      You can navigate the website using the icon in the top right corner or the links
+      provided below.
+  article:
+    align: "left" # "left" | "center" | "right"
+    word_count: false
+    feed_message: "Subscribe to RSS feed"
+    nav_message: >
+      You can navigate the posts' categories using the links provided below.
+
+footer:
+  creative_common: true
+  align: "center" # "left" | "center" | "right"
+  text: >
+    Except where otherwise <a
+    href="https://creativecommons.org/policies#license">noted</a>, content on
+    this site is licensed under a <a
+    href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative
+    Commons Attribution 4.0 International license</a>.

@@ -10,7 +10,7 @@ The reference technique for Machine Learning that will be presented to the class
 is the `Artificial Neural Network` (ANN). This technique has distinguished itself
 in recent years, both in research and in industry, for its wide use in the
 classification of images, text and sounds.
-Explaining the classification process of an object involves three fundamental
+Explaining the classification process of an object involves four fundamental
 aspects:
 1. **the choice of the training model objects** and the training process of the machine;
 2. **the perception of the object** (from the machine point of view) and/or its representation, its association

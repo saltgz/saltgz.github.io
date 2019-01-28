@@ -13,6 +13,6 @@ Datalogi Campusvej 55, Ø18-511a-2 5230 in Odense M
 If you plan to visit me, please, send me first an email at [stefanopio.zingaro
 [at] unibo.it](mailto:stefanopio.zingaro@unibo.it).
 
-As you may have already got, my [GitHub username](https://github.com/saltgz) is
-`saltgz` and, in case you were looking for that, I don't have any *Facebook*,
+As you may have already noticed, my [GitHub username](https://github.com/spzingaro) is
+`spzingaro` and, in case you were looking for that, I don't have any *Facebook*,
 *LinkedIn*, or *Twitter* account.

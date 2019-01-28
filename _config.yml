@@ -3,7 +3,7 @@ port: 9001
 host: "localhost"
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
 detach: false
-url: "https://saltgz.github.io/" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://spzingaro.github.io/" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 # Build Command Options
 show_drafts: false

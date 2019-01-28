@@ -11,7 +11,7 @@
       {{ content | markdownify }}
     </main>
     {%- if site.data.style.header.navigation == false -%}
-    <footer class="p-5">{%- include footer.html -%}</footer>
+    <footer class="p-5">{%- include copyright.html -%}</footer>
     {%- endif -%} {%- include script.html -%}
   </body>
 </html>

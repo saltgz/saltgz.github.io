@@ -7,7 +7,7 @@
     style="font-weight:{{ site.data.style.main.font_weight }}"
   >
     <header class="border">{%- include header.html -%}</header>
-    <main id="content" role="main" class="py-2 text-justify">
+    <main id="content" role="main" class="py-2">
       {{ content | markdownify }}
     </main>
     {%- if site.data.style.header.navigation == false -%}

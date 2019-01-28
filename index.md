@@ -29,9 +29,9 @@ project focusing on Programming Language Abstractions for Cloud and Embedded
 Systems.
 
 In addition to academic research activities, I am interested in
-teaching-learning practices. In particular I am interested in the theory of
-learning of Computer Science, in the concept of Education-as-a-Service (EaaS)
-and Didactical Engineering (DE), as the study of techniques of design and
-experimentation of teaching activities. In this regard I carry out activities
-aimed at learning at Schools, Universities and Companies, concerning the use of
-models of Artificial Intelligence.
+teaching-learning practices. More precisely, I am intrigued by the theory of
+Computer Science learning, the concept of Education-as-a-Service (EaaS)
+and the Didactical Engineering (DE), that is, the study of techniques for 
+teaching activities design and experimentation . In this regard I carry out courses and workshops 
+in Schools, Universities and Companies, mostly concerning 
+the [use of Artificial Intelligence](https://spzingaro.github.io/education/2018/07/04/lab-ml/).

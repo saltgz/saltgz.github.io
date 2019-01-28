@@ -1,0 +1,40 @@
+<nav class="navbar navbar-light bg-white">
+  <div>
+    {%- if site.data.style.header.text -%}{{ site.data.style.header.text }}{%-
+    else -%}{%- if site.title -%}<a href="{{ site.url }}"
+      ><h1>{{ site.title }}</h1></a
+    >{%- endif -%} {%- if site.description -%}
+    <h6>{{ site.description }}</h6>
+    {%- endif -%}{%- endif -%}
+  </div>
+  <button
+    class="btn btn-link"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarToggleExternalContent"
+    aria-controls="navbarToggleExternalContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="text-dark" style="font-size: 2rem;">
+      <i class="fas fa-bars"></i>
+    </span>
+  </button>
+</nav>
+<div
+  class="collapse position-relative text-center"
+  id="navbarToggleExternalContent"
+>
+  <div class="card border-0">
+    <ul class="navbar-nav my-3">
+      {%- for item in site.data.nav.items -%}
+      <li class="nav-item">
+        <a class="nav-link" href="{{ item.url | relative_url | prepend: site.baseurl }}">
+          {{ item.title | escape }}
+        </a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  <div class="card-footer">{%- include copyright.html -%}</div>
+</div>

@@ -51,7 +51,7 @@ kramdown:
   auto_ids: true
 
 # Permalinks
-permalink: pretty
+permalink: /:categories/:slug:output_ext
 
 # Build settings
 # theme: jekyll-theme-minimal-bootstrap

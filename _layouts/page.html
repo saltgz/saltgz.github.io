@@ -8,7 +8,7 @@ layout: default
     {% if page.subtitle %}
     <h6 class="card-subtitle mb-2 text-muted">{{ page.subtitle | escape }}</h6>
     {% endif %}
-    <p class="card-text">{{ content }}</p>
+    <p class="card-text">{{ content | markdownify }}</p>
   </div>
   <div class="card-footer ">
     <p class="text-muted">{{ site.data.style.main.page.nav_message}}</p>

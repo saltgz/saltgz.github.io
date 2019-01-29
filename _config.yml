@@ -3,7 +3,7 @@ port: 9001
 host: "localhost"
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
 detach: false
-url: "https://spzingaro.github.io/" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://szingaro.github.io/" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 # Build Command Options
 show_drafts: false
@@ -30,7 +30,7 @@ exclude:
 # Meta
 lang: en-US
 title: >
-  The web site of <a href="https://spzingaro.github.io/">Stefano Pio Zingaro</a><br>
+  The web site of <a href="https://szingaro.github.io/">Stefano Pio Zingaro</a><br>
   PhD student at <a href="https://www.unibo.it">Università di Bologna</a><br>
   <a href="https://cs.unibo.it">Department of Computer Science &amp; Engineering </a>
 description: >

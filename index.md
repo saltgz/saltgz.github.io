@@ -9,7 +9,7 @@ Bioinformatics](http://www.biocomp.unibo.it/lsbioinfo/), I am a PhD student at
 the [Department of Computer Science and Engineering](http://cs.unibo.it),
 University of Bologna. Member of the [Focus Research Team at INRIA (Sophia
 Antipolis)](http://focus.cs.unibo.it) and the [SPACES research
-group](http://www.cs.unibo.it/projects/spaces2017).
+group](http://www.cs.unibo.it/projects/spaces).
 
 My PhD is supervised by [Professor Maurizio
 Gabbrielli](http://www.cs.unibo.it/~gabbri/) and [Professor Ivan

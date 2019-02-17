@@ -2,9 +2,8 @@ header:
   navigation: true
   align: "left" # "left" | "center" | "right"
   text: >
-    The web site of <a href="https://szingaro.github.io">Stefano Pio Zingaro</a><br>
-    PhD student at <a href="https://www.unibo.it">Università di Bologna</a><br>
-    <a href="https://cs.unibo.it">Department of Computer Science &amp; Engineering </a>
+    <h5><a href="https://szingaro.github.io">Stefano Pio Zingaro</a></h5>
+    <h6><a href="https://www.unibo.it">Università di Bologna</a></h6>
 
 main:
   font_weight: 300 # a custom value for the font-weight of the body

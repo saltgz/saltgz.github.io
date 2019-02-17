@@ -22,11 +22,11 @@
   </button>
 </nav>
 <div
-  class="collapse position-relative text-center"
+  class="collapse position-relative"
   id="navbarToggleExternalContent"
 >
   <div class="card border-0">
-    <ul class="navbar-nav my-3">
+    <ul class="navbar-nav my-3 d-flex flex-row justify-content-around">
       {%- for item in site.data.nav.items -%}
       <li class="nav-item">
         <a class="nav-link" href="{{ item.url | relative_url | prepend: site.baseurl }}">

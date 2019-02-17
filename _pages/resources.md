@@ -1,6 +1,7 @@
 ---
 title: External Resources
 subtitle: a list of useful links
+published: false
 ---
 
 This page collects external links, useful in projects where [I](saltgz.github.io) was involved.

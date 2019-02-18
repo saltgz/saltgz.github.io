@@ -22,7 +22,7 @@ main:
       You can navigate the posts' categories using the links provided below.
 
 footer:
-  creative_common: true
+  creative_common: false # "true" | "false"
   align: "left" # "left" | "center" | "right"
   text: >
     Except where otherwise <a

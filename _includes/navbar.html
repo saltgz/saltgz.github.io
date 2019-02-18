@@ -7,7 +7,7 @@
     <h6>{{ site.description }}</h6>
     {%- endif -%}{%- endif -%}
   </div>
-  <button
+  <!--<button
     class="btn btn-link"
     type="button"
     data-toggle="collapse"
@@ -19,14 +19,14 @@
     <span class="text-dark" style="font-size: 2rem;">
       <i class="fas fa-bars"></i>
     </span>
-  </button>
+  </button>!-->
 </nav>
-<div
+<!--<div
   class="collapse position-relative"
   id="navbarToggleExternalContent"
->
+>!-->
   <div class="card border-0">
-    <ul class="navbar-nav my-3 d-flex flex-row justify-content-around">
+    <ul class="navbar-nav my-3 d-flex flex-row justify-content">
       {%- for item in site.data.nav.items -%}
       <li class="nav-item">
         <a class="nav-link" href="{{ item.url | relative_url | prepend: site.baseurl }}">
@@ -37,4 +37,4 @@
     </ul>
   </div>
   <div class="card-footer">{%- include copyright.html -%}</div>
-</div>
+<!--</div>!-->

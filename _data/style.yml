@@ -12,14 +12,13 @@ main:
     align: "left" # "left" | "center" | "right"
   page:
     nav_message: >
-      You can navigate the website using the icon in the top right corner or the links
-      provided below.
+      You can navigate website contents using the following links.
   article:
     align: "left" # "left" | "center" | "right"
     word_count: false
     feed_message: "Subscribe to RSS feed"
     nav_message: >
-      You can navigate the posts' categories using the links provided below.
+      You can navigate post categories using the following links.
 
 footer:
   creative_common: false # "true" | "false"

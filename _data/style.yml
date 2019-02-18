@@ -23,7 +23,7 @@ main:
 
 footer:
   creative_common: true
-  align: "center" # "left" | "center" | "right"
+  align: "left" # "left" | "center" | "right"
   text: >
     Except where otherwise <a
     href="https://creativecommons.org/policies#license">noted</a>, content on

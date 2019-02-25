@@ -29,13 +29,6 @@ exclude:
 
 # Meta
 lang: en-US
-title: >
-  The web site of <a href="https://szingaro.github.io/">Stefano Pio Zingaro</a><br>
-  PhD student at <a href="https://www.unibo.it">Università di Bologna</a><br>
-  <a href="https://cs.unibo.it">Department of Computer Science &amp; Engineering </a>
-description: >
-  The web site of Stefano Pio Zingaro PhD student at Università di
-  Bologna, Department of Computer Science &amp; Engineering.
 social_image_path: /assets/img/brand/social.jpg
 social_logo_path: /assets/img/brand/social.jpg
 

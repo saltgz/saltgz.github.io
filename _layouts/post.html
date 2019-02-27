@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="card">
-  <div class="card-header">
+<div class="card border-0">
+  <div class="card-header bg-white">
     <i class="fas fa-rss mr-2" aria-hidden="true"></i> {%- if site.feed.path
     -%}<a class="text-dark" href="{{ site.feed.path | relative_url | prepend: site.baseurl }}" title="Atom Feed RSS"
       >{{ site.data.style.main.article.feed_message }}</a
@@ -16,7 +16,7 @@ layout: default
     {% endif %}
     <p class="card-text">{{ content }}</p>
   </div>
-  <div class="card-footer ">
+  <div class="card-footer">
     <p class="text-muted">{{ site.data.style.main.article.nav_message}}</p>
     {%- for item in page.authors -%}
     <a class="card-link badge badge-light text-dark" href="{{ site.baseurl }}/{{ item }}"

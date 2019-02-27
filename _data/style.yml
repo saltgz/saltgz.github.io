@@ -1,6 +1,6 @@
 header:
   navigation: true
-  align: "left" # "left" | "center" | "right"
+  align: "center" # "left" | "center" | "right"
   text: >
     <h5><a href="https://szingaro.github.io">Stefano Pio Zingaro</a></h5>
     <h6><a href="https://www.unibo.it">Università di Bologna</a></h6>
@@ -17,13 +17,13 @@ main:
   article:
     align: "left" # "left" | "center" | "right"
     word_count: false
-    feed_message: "Subscribe to RSS feed"
+    feed_message: "Subscribe to the RSS feed to get notified of updates"
     nav_message: >
       You can navigate post categories using the following links.
 
 footer:
   creative_common: false # "true" | "false"
-  align: "left" # "left" | "center" | "right"
+  align: "center" # "left" | "center" | "right"
   text: >
     Except where otherwise <a
     href="https://creativecommons.org/policies#license">noted</a>, content on

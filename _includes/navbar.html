@@ -6,7 +6,7 @@
   <h6>{{ site.description }}</h6>
   {%- endif -%}{%- endif -%}
 </div>
-<div class="card border-left-0 border-right-0 border-bottom-0 border-top-1">
+<div class="card border-left-0 border-right-0 border-bottom-0 border-top-1 rounded-0">
   <ul class="navbar-nav my-2 d-flex flex-row justify-content-around">
     {%- for item in site.data.nav.items -%}
     <li class="nav-item">
@@ -17,4 +17,6 @@
     {%- endfor -%}
   </ul>
 </div>
+{%- if site.data.style.copyright.text -%}
 <div class="card-footer">{%- include copyright.html -%}</div>
+{%- endif -%}

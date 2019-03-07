@@ -2,7 +2,7 @@ header:
   navigation: true
   align: "center" # "left" | "center" | "right"
   text: >
-    <h5><a href="https://szingaro.github.io">Stefano Pio Zingaro</a></h5>
+    <h4><a href="https://szingaro.github.io">Stefano Pio Zingaro</a></h4>
     <h6><a href="https://www.unibo.it">Università di Bologna</a></h6>
 
 main:
@@ -11,9 +11,6 @@ main:
     title: true
     align: "left" # "left" | "center" | "right"
     words: "words"
-  page:
-    nav_message: >
-      You can navigate website contents using the following links.
   article:
     align: "left" # "left" | "center" | "right"
     word_count: false
@@ -21,7 +18,7 @@ main:
     nav_message: >
       You can navigate post categories using the following links.
 
-footer:
+copyright:
   creative_common: false # "true" | "false"
   align: "center" # "left" | "center" | "right"
   text: >
@@ -30,3 +27,9 @@ footer:
     this site is licensed under a <a
     href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative
     Commons Attribution 4.0 International license</a>.
+
+
+footer:
+  align: "left" # "left" | "center" | "right"
+  text: >
+    You can navigate the website content using the following links.

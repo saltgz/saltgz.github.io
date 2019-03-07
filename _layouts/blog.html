@@ -41,7 +41,7 @@ layout: default
   </div>
 
   <div class="card-footer bg-white">
-    <p class="text-muted">{{ site.data.style.main.page.nav_message}}</p>
+    <p class="text-muted">{{ site.data.style.footer.text}}</p>
     {%- for item in site.data.nav.items -%}
     <a class="card-link badge badge-light text-dark" href="{{ item.url | absolute_url }}">{{ item.title | escape }}</a>
     {%- endfor -%}

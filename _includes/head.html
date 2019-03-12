@@ -13,7 +13,7 @@
 <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
 
 <title>
-  {%- if page.title -%}{{ page.title | smartify }}&nbps;&middot;&nbps;{%- endif -%}
+  {%- if page.title -%}{{ page.title | smartify }}{{ "&nbps;&middot;&nbps;" | strip_html | smartify }}{%- endif -%}
   {{ site.data.style.header.text | strip_html | smartify }}
 </title>
 

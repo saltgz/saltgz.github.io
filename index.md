@@ -30,8 +30,9 @@ Systems.
 
 In addition to academic research activities, I am interested in
 teaching-learning practices. More precisely, I am intrigued by the theory of
-Computer Science learning, the concept of Education-as-a-Service (EaaS)
-and the Didactical Engineering (DE), that is, the study of techniques for 
-teaching activities design and experimentation . In this regard I carry out courses and workshops 
-in Schools, Universities and Companies, mostly concerning 
-the [use of Artificial Intelligence](https://spzingaro.github.io/education/2018/07/04/lab-ml/).
+Computer Science learning, the concept of Education-as-a-Service (EaaS) and the
+Didactical Engineering (DE), that is, the study of techniques for  teaching
+activities design and experimentation . In this regard I carry out courses and
+workshops  in Schools, Universities and Companies, mostly concerning  the [use
+of Artificial
+Intelligence](https://spzingaro.github.io/education/2018/07/04/lab-ml/).

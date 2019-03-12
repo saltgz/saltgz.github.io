@@ -1,5 +1,5 @@
 ---
-title: Microservices for the IoT
+title: Edge Computing with Microservices
 categories: research
 ---
 

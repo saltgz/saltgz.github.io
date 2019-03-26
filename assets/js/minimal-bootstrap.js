@@ -3,7 +3,7 @@ $(function() {
   $("header").find("a").addClass("text-dark");
   $("main").find("a").addClass("text-primary");
   $("i").addClass("text-success");
-  $("table").addClass("table table-striped text-left");
+  $("table").addClass("table table-striped table-dark text-left");
   $("a").click(function() {
     var a = new RegExp("/" + window.location.host + "/");
     if (!a.test(this.href)) {

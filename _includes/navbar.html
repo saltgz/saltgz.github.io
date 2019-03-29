@@ -7,7 +7,7 @@
   {%- endif -%}{%- endif -%}
 </div>
 <div class="card border-left-0 border-right-0 border-bottom-0 border-top-1 rounded-0">
-  <ul class="navbar-nav my-2 d-flex flex-row justify-content-around">
+  <ul class="navbar-nav p-2 flex-sm-row justify-content-around align-items-center">
     {%- for item in site.data.nav.items -%}
     <li class="nav-item">
       <a class="nav-link" href="{{ item.url | relative_url | prepend: site.baseurl }}">

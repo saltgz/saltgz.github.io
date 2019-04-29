@@ -1,23 +1,23 @@
 # Serve Command Options
-port: 9001
-host: "localhost"
-baseurl: "" # the optional subpath of your site, e.g. "/blog"
-detach: false
-url: "https://szingaro.github.io/" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+port:                9001
+host:                "localhost"
+baseurl:             "" # the optional subpath of your site, e.g. "/blog"
+detach:              false
+url:                 "https://szingaro.github.io/" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 # Build Command Options
-show_drafts: false
-future: false
-unpublished: false
-incremental: false
-profile: false
+show_drafts:         false
+future:              false
+unpublished:         false
+incremental:         false
+profile:             false
 strict_front_matter: true
 
 # Global Configurations
-source: "."
-destination: "_site"
-safe: true # Exclude directories and/or files from the conversion
-include: # Force inclusion of directories and/or files in the conversion
+source:              "."
+destination:         "_site"
+safe:                true # Exclude directories and/or files from the conversion
+include:             # Force inclusion of directories and/or files in the conversion
 exclude:
   - .asset-cache
   - .jekyll-assets-cache
@@ -28,68 +28,68 @@ exclude:
   - README
 
 # Meta
-lang: en-US
-social_image_path: /assets/img/brand/social.jpg
-social_logo_path: /assets/img/brand/social.jpg
+lang:                en-US
+social_image_path:   /assets/img/brand/social.jpg
+social_logo_path:    /assets/img/brand/social.jpg
 
 # Analytics
 google:
-  monitoring_id: # set your google analytics monitoring id
+  monitoring_id:     # set your google analytics monitoring id
 
 # Dependencies
-markdown: kramdown
-highlighter: rouge
+markdown:            kramdown
+highlighter:         rouge
 
 kramdown:
-  auto_ids: true
+  auto_ids:          true
 
 # Permalinks
-permalink: /:categories/:slug:output_ext
+permalink:           /:categories/:slug:output_ext
 
 # Build settings
-# theme: jekyll-theme-minimal-bootstrap
-plugins: # some plugins need by the theme
+# theme:             jekyll-theme-minimal-bootstrap
+plugins:             # some plugins need by the theme
   - jekyll-feed
   - jekyll-sitemap
 feed:
-  path: atom.xml
+  path:              atom.xml
 
 # Collections settings for Categories and Authors posts list pages
 collections:
   pages:
-    output: true
-    permalink: /:name
+    output:          true
+    permalink:       /:name
   categories:
-    output: true
-    permalink: /:name/
+    output:          true
+    permalink:       /:name/
   authors:
-    output: false
-    permalink: /:collection/:name/
+    output:          false
+    permalink:       /:collection/:name/
 
 # Front Matter Defaults
 defaults:
   # _posts
   - scope:
-      path: "_posts"
-      type: posts
+      path:          "_posts"
+      type:          posts
     values:
-      layout: post
-      read_time: true
+      layout:        post
+      read_time:     true
   # _pages
   - scope:
-      path: "_pages"
-      type: pages
+      path:          "_pages"
+      type:          pages
     values:
-      layout: page
+      layout:        page
   # _categories
   - scope:
-      path: "_categories"
-      type: categories
+      path:          "_categories"
+      type:          categories
     values:
-      layout: blog
+      layout:        blog
   # _authors
   - scope:
-      path: "_authors"
-      type: authors
+      path:          "_authors"
+      type:          authors
     values:
-      layout: blog
+      layout:        blog

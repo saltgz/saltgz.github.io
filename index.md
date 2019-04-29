@@ -14,7 +14,7 @@ group](http://www.cs.unibo.it/projects/spaces).
 My PhD is supervised by [Professor Maurizio
 Gabbrielli](http://www.cs.unibo.it/~gabbri/) and [Professor Ivan
 Lanese](http://www.cs.unibo.it/~lanese). Our research interest focuses on
-*Programming Languages* for *Distributed Systems*, and their impact on the
+_Programming Languages_ for _Distributed Systems_, and their impact on the
 development of applications in Smart City scenarios. The European institution
 [EIT Digital](https://www.eitdigital.eu/) and the Italian company [Engineering
 SpA](https://www.eng.it) financially support my grant.
@@ -31,8 +31,8 @@ Systems.
 In addition to academic research activities, I am interested in
 teaching-learning practices. More precisely, I am intrigued by the theory of
 Computer Science learning, the concept of Education-as-a-Service (EaaS) and the
-Didactical Engineering (DE), that is, the study of techniques for  teaching
+Didactical Engineering (DE), that is, the study of techniques for teaching
 activities design and experimentation . In this regard I carry out courses and
-workshops  in Schools, Universities and Companies, mostly concerning  the [use
+workshops in Schools, Universities and Companies, mostly concerning the [use
 of Artificial
 Intelligence](https://spzingaro.github.io/education/2018/07/04/lab-ml/).

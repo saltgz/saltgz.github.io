@@ -2,8 +2,7 @@ header:
   navigation: true
   align: "center" # "left" | "center" | "right"
   text: >
-    <h1><a href="https://szingaro.github.io">Stefano Pio Zingaro</a></h1>
-    <h2>PhD student @ <a href="https://www.unibo.it">Università di Bologna</a>\ INRIA</h2>
+    <h4><a href="https://szingaro.github.io">Stefano Pio Zingaro</a></h4>
 
 main:
   font_weight: 300 # a custom value for the font-weight of the body
@@ -14,9 +13,9 @@ main:
   article:
     align: "left" # "left" | "center" | "right"
     word_count: false
-    # feed_message: "Subscribe to the RSS feed to get notified of updates"
-    # nav_message: >
-    #   You can navigate post categories using the following links.
+    feed_message: "Subscribe to the RSS feed to get notified of updates"
+    nav_message: >
+      You can navigate post categories using the following links.
 
 copyright:
   creative_common: false # "true" | "false"

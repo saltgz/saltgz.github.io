@@ -15,7 +15,7 @@ protocols such as CoAP and MQTT.
 A slide deck of the presentation used at the conference is also availble
 [here](https://www.conf-micro.services/2019/slides/papers/day2/applications2/Zingaro.pdf).
 
-## An Introduction to Microservices for the Edge
+###### An Introduction to Microservices for the Edge
 
 Microservices are a new trend in software architecture, advocating for building
 modern large scale software systems using a flexible composition of small,
@@ -46,7 +46,7 @@ integration (both cross-layer and cross-platform). We will follow a
 language-based approach focusing on integration at both the transport and
 application layer.
 
-## A Microservice-Oriented Language for IoT
+###### A Microservice-Oriented Language for IoT
 
 We could tackle the problems mentioned above from different directions, e.g., by
 creating a library for a general-purpose programming language, by developing a
@@ -86,7 +86,7 @@ Each implementation is a separated library which is loaded only if the protocol
 is used. The main challenge has been integrating MQTT publish/subscribe into the
 Jolie framework, which is designed to support end-to-end communications.
 
-## An illustrative Example
+###### An illustrative Example
 
 We illustrate the proposed approach considering a common "edge computing"
 scenario in IoT applications development, where we need to collect temperature
@@ -135,7 +135,7 @@ main
 }
 ```
 
-## Considerations
+###### Final considerations
 
 Several ongoing European projects, e.g. Inter-IoT, tackle the problem of
 collaboration and integration among heterogeneous systems. Technology-wise,

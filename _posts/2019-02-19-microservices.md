@@ -1,14 +1,19 @@
 ---
-title: Edge Computing with Microservices
+title: Microservice-Oriented Computing for the Internet of Things
+subtitle: ... a report from the microservices conference 2019
 categories: research
 ---
 
-We present a language-based approach tackling the problem of IoT integration at
-the [Microservices Conference 2019](https://www.conf-micro.services/). The
-approach is based on the use of the microservice-oriented programming language
-Jolie, that we extended to support IoT protocols such as CoAP and MQTT. The
-slide deck of the presentation used at the conference can be found [at this
-link](https://www.conf-micro.services/2019/slides/papers/day2/applications2/Zingaro.pdf)
+In this post we discuss language-based approach for IoT and Edge integration as
+it was presented at the last [Microservices Conference
+2019](https://www.conf-micro.services/), held in Dortmund on March.
+
+The approach is based on the usage of the microservice-oriented programming
+language [Jolie](http://jolie-lang.org), extended to support IoT
+protocols such as CoAP and MQTT.
+
+A slide deck of the presentation used at the conference is also availble
+[here](https://www.conf-micro.services/2019/slides/papers/day2/applications2/Zingaro.pdf).
 
 ## An Introduction to Microservices for the Edge
 
@@ -97,7 +102,7 @@ deployment, describing in a declarative way how communication is performed
 change which communication stack to use, preserving the same logic for the
 elaboration.
 
-```jolie
+```php
 interface TemperatureInterface {
   OneWay: receiveTemperature( string )
 }

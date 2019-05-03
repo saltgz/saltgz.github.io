@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: en-US }}">
-  <head>
-    {%- include head.html -%}
-  </head>
-  <body
-    class="container"
-    style="font-weight:{{ site.data.style.main.font_weight }}"
-  >
-    <header class="border-0">{%- include header.html -%}</header>
-    <main id="content" role="main" class="py-2">
-      {{ content | markdownify }}
-    </main>
-    {%- if site.data.style.header.navigation == false -%}
-    <footer class="p-5">{%- include copyright.html -%}</footer>
-    {%- endif -%} {%- include script.html -%}
-  </body>
+
+<head>
+  {%- include head.html -%}
+</head>
+
+<body class="container" style="font-weight:{{ site.data.style.main.font_weight }}">
+  <header class="border-0">{%- include header.html -%}</header>
+  <main id="content" role="main" class="py-2">
+    {{ content | markdownify }}
+  </main>
+  {%- if site.data.style.header.navigation == false -%}
+  <footer class="p-5">{%- include copyright.html -%}</footer>
+  {%- endif -%} {%- include script.html -%}
+</body>
+
 </html>

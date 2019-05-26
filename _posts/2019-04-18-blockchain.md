@@ -1,10 +1,10 @@
 ---
 title: Exploiting Blockchain technology with Microservices
-categories: education
+categories: dissemination
 published: true
 ---
 
-Presentazione del 18 Aprile 2019 per [Data Science Bologna](https://www.datasciencebologna.eu/) nel *headquarter* di [MusixMatch](https://www.musixmatch.com/) sui temi di **Blockchain** e **Microservizi**. 
+Presentazione del 18 Aprile 2019 per [Data Science Bologna](https://www.datasciencebologna.eu/) nel *headquarter* di [MusixMatch](https://www.musixmatch.com/) sui temi di **Blockchain** e **Microservizi**.
 
 #### N.B.
 La password per accedere al PDF è `musixmatch`.

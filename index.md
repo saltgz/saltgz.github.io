@@ -35,4 +35,4 @@ Didactical Engineering (DE), that is, the study of techniques for teaching
 activities design and experimentation . In this regard I carry out courses and
 workshops in Schools, Universities and Companies, mostly concerning the [use
 of Artificial
-Intelligence](https://spzingaro.github.io/education/2018/07/04/lab-ml/).
+Intelligence](https://szingaro.github.io/dissemination/artificial-intelligence-laboratory.html).

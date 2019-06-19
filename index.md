@@ -33,6 +33,6 @@ teaching-learning practices. More precisely, I am intrigued by the theory of
 Computer Science learning, the concept of Education-as-a-Service (EaaS) and the
 Didactical Engineering (DE), that is, the study of techniques for teaching
 activities design and experimentation . In this regard I carry out courses and
-workshops in Schools, Universities and Companies, mostly concerning the [use
+workshops in Schools, Universities and Companies, mostly concerning the [basic concepts
 of Artificial
-Intelligence]({{ site.baseurl }}/dissemination/artificial-intelligence-laboratory.html).
+Intelligence and Machine Learning]({{ site.baseurl }}/dissemination/artificial-intelligence-laboratory.html).

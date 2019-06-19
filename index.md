@@ -14,8 +14,10 @@ group](http://www.cs.unibo.it/projects/spaces).
 My PhD is supervised by [Professor Maurizio
 Gabbrielli](http://www.cs.unibo.it/~gabbri/) and [Professor Ivan
 Lanese](http://www.cs.unibo.it/~lanese). Our research interest focuses on
-_Programming Languages_ for _Distributed Systems_, and their impact on the
-development of applications in Smart City scenarios. The European institution
+**Service Oriented Architecture** (_SOA_) and their relation with **Internet of Things**, 
+**Distributed Systems**, and **System of Systems** (_SoS_). Concretely we study the impact 
+of this technologies on the development of applications in Smart City and 
+Industrial scenarios. The European institution 
 [EIT Digital](https://www.eitdigital.eu/) and the Italian company [Engineering
 SpA](https://www.eng.it) financially support my grant.
 

@@ -8,7 +8,7 @@ Introduction to Algorithms and Programming Laboratory, _A.A. 2019-2020_, **Artif
 
 [Professor Simone Martini](http://cs.unibo.it/~martini) helds the first part of the course, [Professor Maurizio
 Gabbrielli](http://cs.unibo.it/~gabbri) helds the second part. 
-More info on the [official page for the course](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/446600), preliminary program scheduling is available at [Professor Martini dedicated page](http://www.cs.unibo.it/~martini/AI/index.html).
+More info on the [official page for the course](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/446600), preliminary program scheduling is available at [Professor Martini's dedicated page](http://www.cs.unibo.it/~martini/AI/index.html).
 
 ##### Materials
 

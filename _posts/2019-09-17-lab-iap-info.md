@@ -9,7 +9,7 @@ Introduction to Algorithms and Programming Laboratory, _A.A. 2019-2020_, **Artif
 [Professor Simone Martini](http://cs.unibo.it/~martini) helds the first part of the course, [Professor Maurizio
 Gabbrielli](http://cs.unibo.it/~gabbri) helds the second part. 
 
-<div role="tabpanel" class="tab-pane fade active in" id="resources">
+<div role="tabpanel" class="tab-pane" id="resources">
             <div class="row">
               <div class="col-md-6">
                 <div class="handouts">

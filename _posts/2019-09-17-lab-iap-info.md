@@ -1,5 +1,5 @@
 ---
-title: Introduction to Algorithms and Programming Lab @ AI Master Degree
+title: Introduction to Algorithms and Programming Lab @ AI Master
 categories: education
 published: true
 ---

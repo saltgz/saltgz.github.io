@@ -1,5 +1,5 @@
 ---
-title: Data Mining Principles and Machine Learning Tutorial with WEKA
+title: Data Mining and Machine Learning with WEKA
 categories: education
 ---
 

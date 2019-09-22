@@ -1,21 +1,15 @@
 {% include analytics.html %}
 
 <meta charset="utf-8" />
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1, shrink-to-fit=no"
-/>
-<meta
-  name="description"
-  content="{{ site.data.style.header.text | strip_html | smartify }}"
-/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content="{{ site.data.style.header.text | strip_html | smartify }}" />
 <meta name="author" content="Stefano Pio Zingaro" />
 <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
 
-<div class="page-header">
+<title>
   {%- if page.title -%}{{ page.title | smartify }}&nbsp;&middot;{%- endif -%}&nbsp;
   {{ site.data.style.header.text | strip_html | smartify }}
-</div>
+</title>
 
 {% include stylesheet.html %}
 {% include favicons.html %}

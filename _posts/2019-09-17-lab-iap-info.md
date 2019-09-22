@@ -37,7 +37,7 @@ These optional reading materials are posted throughout the quarter to supplement
 | 2   | [PEP 8: Python Style Guide](https://www.python.org/dev/peps/pep-0008/)                                     | Guido van Rossum |
 | 1   | [PEP 20: The Zen of Python](https://www.python.org/dev/peps/pep-0020/)                                     | Tim Peters       |
 
-###### Labs
+##### Labs
 
 Labs provide a hands-on opportunity to experiment with the Python concepts presented in lectures. Although students work on these labs during an 90-minute class period, it would take much longer to fully complete a lab. Each lab comes with a number of challenge problems that will take even the experiences programmer nontrivial time. Labs are collaborative and open-ended, frequently asking you to think about how or why Python makes the decisions it does.
 

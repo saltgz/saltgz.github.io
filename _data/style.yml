@@ -1,9 +1,9 @@
 header:
   navigation: true
-  align: "center" # "left" | "center" | "right"
+  align: "left" # "left" | "center" | "right"
   text: >
-    <h3>Stefano Pio Zingaro <small>S<span class="text-primary">p</span>Z</small></h3>
-    <h5 class="text-muted">official <span class="text-primary">PhD</span> web site</h5>
+    <h1><span class="text-primary">S</span>tefano <span class="text-primary">p</span>io <span class="text-primary">Z</span>ingaro <small>PhD Student</small></h1>
+    <h3 class="text-muted">official <span class="text-primary">DISI</span> web site</h3>
 
 main:
   font_weight: 300 # a custom value for the font-weight of the body

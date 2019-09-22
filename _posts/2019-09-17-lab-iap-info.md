@@ -37,19 +37,13 @@ These optional reading materials are posted throughout the quarter to supplement
 | 2   | [PEP 8: Python Style Guide](https://www.python.org/dev/peps/pep-0008/)                                     | Guido van Rossum |
 | 1   | [PEP 20: The Zen of Python](https://www.python.org/dev/peps/pep-0020/)                                     | Tim Peters       |
 
-###### Exercises
+###### Labs
 
-Folders containing a bunch of [exercises](https://www.dropbox.com/sh/elascfs6pgyem1p/AAAUuL6yNR_hlhp5EbxeI2kpa?dl=0)
--- of different levels -- and [relative
-solutions](https://www.dropbox.com/sh/ejzuy0iiilk41zx/AAAZdVVdgZ6Aaai1uIKyGNp3a?dl=0) will be provided during the
-course.
+Labs provide a hands-on opportunity to experiment with the Python concepts presented in lectures. Although students work on these labs during an 90-minute class period, it would take much longer to fully complete a lab. Each lab comes with a number of challenge problems that will take even the experiences programmer nontrivial time. Labs are collaborative and open-ended, frequently asking you to think about how or why Python makes the decisions it does.
 
-###### Slides
+Each problem is chosen to reinforce a particular concept, but you are free to skip around at will. You are not expected to submit your solutions to labs, although our reference solutions will be posted afterwards. Think of labs as a chance to solidify your working knowledge of Python - after all, what better way to learn Python than to practice it?
 
-|                                          #                                          |                              Date                              | Topic                      | Lab                                                            |
-| :---------------------------------------------------------------------------------: | :------------------------------------------------------------: | -------------------------- | -------------------------------------------------------------- |
-|                             --------------------------                              | -------------------------------------------------------------- |
-|                    :------------------------------------------:                     |
-|                                          1                                          |                           18/09/2019                           | Introducing lab and Python | [PDF](https://www.dropbox.com/s/c02mqv85y1wl2jl/main.pdf?dl=0) |
-|                                          2                                          |                           23/09/2019                           | Iterations and Immutables  |
-| [PDF](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_iterations_immutables.pdf?dl=0) |
+| #   | Topic + Slides deck                                                                                       | Handout     | Solutions     |
+| --- | --------------------------------------------------------------------------------------------------------- | ----------- | ------------- |
+| 2   | [Iterations and Immutables](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_iterations_immutables.pdf?dl=0) | [Handout]() | [Solutions]() |
+| 1   | [Introducing lab and Python](https://www.dropbox.com/s/c02mqv85y1wl2jl/main.pdf?dl=0)                     | [Handout]() | [Solutions]() |

@@ -6,13 +6,29 @@
 </head>
 
 <body class="container">
-  <header class="border-0">{%- include header.html -%}</header>
+  <header>{%- include header.html -%}</header>
   <main id="content" role="main" class="py-2">
-    {{ content | markdownify }}
+    <div class="row">
+      <div class="col-lg-2 border-right">
+        {%- include navbar.html -%}
+      </div>
+      <div class="col-lg-7 border-right">
+        {{ content | markdownify }}
+      </div>
+      <div class="col-lg-3">
+        {%- include twitter.html -%}
+      </div>
+    </div>
   </main>
-  {%- if site.data.style.header.navigation == false -%}
-  <footer class="p-5">{%- include copyright.html -%}</footer>
-  {%- endif -%} {%- include script.html -%}
+  <footer class="border-top">
+    <p class="text-muted">{{ site.data.style.footer.text}}</p>
+    {%- for item in site.data.nav.items -%}
+    <a class="card-link badge badge-light text-dark"
+      href="{{ item.url | relative_url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
+    {%- endfor -%}
+    <p>{%- include copyright.html -%}</p>
+  </footer>
+  {%- include script.html -%}
 </body>
 
 </html>

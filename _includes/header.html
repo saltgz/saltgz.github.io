@@ -1,18 +1,3 @@
-{%- if site.data.style.header.navigation -%}
-{%- include navbar.html -%}
-{%- else -%}
-<div class="text-{{ site.data.style.header.align }}">
-  {%- if site.data.style.header.text -%}
+<div class="border-bottom py-2 text-{{ site.data.style.header.align }}">
   {{ site.data.style.header.text }}
-  {%- else -%}
-  {%- if site.title -%}
-  <a href="{{ site.url }}">
-    <h1>{{ site.title }}</h1>
-  </a>
-  {%- endif -%}
-  {%- if site.description -%}
-  <h6>{{ site.description }}</h6>
-  {%- endif -%}
-  {%- endif -%}
 </div>
-{%- endif -%}

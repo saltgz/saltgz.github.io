@@ -145,7 +145,7 @@ def max_collatz_len_fast(n):
 
 def convert_fahr_to_cels(deg_fahr):
 		"""Converts a temperature in degrees Fahrenheit to degrees Celsius."""
-		cels = (fahr - 32) * 5 / 9
+		cels = (deg_fahr - 32) * 5 / 9
 
 
 def converter():

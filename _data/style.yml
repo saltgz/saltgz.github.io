@@ -2,11 +2,11 @@ header:
   navigation: true
   align: "left" # "left" | "center" | "right"
   text: >
-    <h1><span class="text-primary">S</span>tefano <span class="text-primary">p</span>io <span class="text-primary">Z</span>ingaro <small>PhD Student</small></h1>
-    <h3 class="text-muted">official <span class="text-primary">DISI</span> web site</h3>
+    <h4 class="text-muted">official <span class="text-primary">PhD</span> web site of</h4>
+    <h2><span class="text-primary">S</span>tefano <span class="text-primary">p</span>io <span class="text-primary">Z</span>ingaro</h2>
+    
 
 main:
-  font_weight: 300 # a custom value for the font-weight of the body
   blog:
     title: true
     align: "left" # "left" | "center" | "right"
@@ -20,7 +20,7 @@ main:
 
 copyright:
   creative_common: false # "true" | "false"
-  align: "center" # "left" | "center" | "right"
+  align: "left" # "left" | "center" | "right"
   text: >
     Except where otherwise <a
     href="https://creativecommons.org/policies#license">noted</a>, content on

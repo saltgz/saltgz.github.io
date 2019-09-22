@@ -16,9 +16,9 @@ in these places:
   presso [Fondazione Bruno Kessler (FBK)](https://www.fbk.eu/en/), Via Sommarive
   18, Povo (TN).
 
-If you plan to visit me, please, send me first an email at [stefanopio.zingaro
+Planning to visit me? Please, send an email at [stefanopio.zingaro
 [at] unibo.it](mailto:stefanopio.zingaro@unibo.it).
 
 As you may have already noticed, my [GitHub
 username](https://github.com/szingaro) is `szingaro` and, in case you were
-looking for that, I don't have any _Facebook_, _LinkedIn_, or _Twitter_ account.
+looking for that, I do not hold a _Facebook_ account. If you are interested in knowing more about me and my work, you can have a look at [my personal profile](www.linkedin.com/in/szingaro) on _LinkedIn_ or you can follow [@PioZingaro](<[www.linkedin.com/in/szingaro](https://twitter.com/PioZingaro)>) on _Twitter_ to catch up with my stream.

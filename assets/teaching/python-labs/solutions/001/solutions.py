@@ -2,7 +2,7 @@
 """
 File: lab1solutions.py
 ----------------------
-Reference solutions to Lab 1 for CS41: Hap.py Code.
+Reference solutions to Lab 1: Hap.py Code.
 
 """
 import math

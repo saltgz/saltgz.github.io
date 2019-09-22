@@ -2,7 +2,8 @@ header:
   navigation: true
   align: "center" # "left" | "center" | "right"
   text: >
-    <h4><a href="https://szingaro.github.io">Stefano Pio Zingaro</a></h4>
+    <h3>Stefano Pio Zingaro <small>S<span class="text-primary">p</span>Z</small></h3>
+    <h5 class="text-muted">official <span class="text-primary">PhD</span> web site</h5>
 
 main:
   font_weight: 300 # a custom value for the font-weight of the body

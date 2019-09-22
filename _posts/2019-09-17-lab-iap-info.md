@@ -45,5 +45,5 @@ Each problem is chosen to reinforce a particular concept, but you are free to sk
 
 | #   | Topic + Slides deck                                                                                       | Handout     | Solutions     |
 | --- | --------------------------------------------------------------------------------------------------------- | ----------- | ------------- |
-| 2   | [Iterations and Immutables](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_iterations_immutables.pdf?dl=0) | [Handout]() | [Solutions]() |
-| 1   | [Introducing lab and Python](https://www.dropbox.com/s/c02mqv85y1wl2jl/main.pdf?dl=0)                     | [Handout]() | [Solutions]() |
+| 2   | [Iterations and Immutables](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_iterations_immutables.pdf?dl=0) | [Handout](assets/teaching/python-labs/notebooks/002-datastructures.ipynb) | - |
+| 1   | [Introducing lab and Python](https://www.dropbox.com/s/c02mqv85y1wl2jl/main.pdf?dl=0)                     | [Handout](assets/teaching/python-labs/notebooks/001-warmup.ipynb) | [Solutions](assets/teaching/python-labs/solutions/001/solutions.py) |

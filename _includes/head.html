@@ -12,10 +12,10 @@
 <meta name="author" content="Stefano Pio Zingaro" />
 <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
 
-<title>
-  {%- if page.title -%}{{ page.title | smartify }}&nbsp;&middot;{%- endif -%}&nbsp;  
+<div class="page-header">
+  {%- if page.title -%}{{ page.title | smartify }}&nbsp;&middot;{%- endif -%}&nbsp;
   {{ site.data.style.header.text | strip_html | smartify }}
-</title>
+</div>
 
 {% include stylesheet.html %}
 {% include favicons.html %}

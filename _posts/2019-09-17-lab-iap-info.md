@@ -24,7 +24,7 @@ These handouts represent any miscellaneous information we need to communicate wi
 
 ##### Readings
 
-These optional reading materials are posted throughout the quarter to supplement the course material for those who are very interested in Python. You will not be held responsible for any information presented only through optional readings; however, the material is fascinating and worth looking at. Currently, it's just a list of articles I find interesting - there may be more structure in the future.
+These optional reading materials are posted to supplement the course material for those who are very interested in Python. You will not be held responsible for any information presented only through optional readings; however, the material is fascinating and worth looking at. Currently, it's just a list of articles I find interesting - there may be more structure in the future.
 
 | #   | Reading                                                                                                    | Credit           |
 | --- | ---------------------------------------------------------------------------------------------------------- | ---------------- |
@@ -42,6 +42,8 @@ These optional reading materials are posted throughout the quarter to supplement
 Labs provide a hands-on opportunity to experiment with the Python concepts presented in lectures. Although students work on these labs during an 90-minute class period, it would take much longer to fully complete a lab. Each lab comes with a number of challenge problems that will take even the experiences programmer nontrivial time. Labs are collaborative and open-ended, frequently asking you to think about how or why Python makes the decisions it does.
 
 Each problem is chosen to reinforce a particular concept, but you are free to skip around at will. You are not expected to submit your solutions to labs, although our reference solutions will be posted afterwards. Think of labs as a chance to solidify your working knowledge of Python - after all, what better way to learn Python than to practice it?
+
+Are you so quick in learning? Do you feel like you already know everything? Check out what Python offers you at [Learn X in Y minutes](https://learnxinyminutes.com/docs/python3/).
 
 | #   | Topic + Slides deck                                                                                       | Handout                                                                                                                              | Solutions                                                                                                                       |
 | --- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |

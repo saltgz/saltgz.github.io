@@ -4,7 +4,7 @@ $(function() {
   $("main").find("a").addClass("text-primary");
   $("i").addClass("text-warning");
   $("table").wrap("<div class=\"table-responsive\" />");
-  $("table").addClass("table table-striped table-dark text-left");
+  $("table").addClass("table table-striped text-left");
   $("a").click(function() {
     var a = new RegExp("/" + window.location.host + "/");
     if (!a.test(this.href)) {

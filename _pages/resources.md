@@ -4,7 +4,7 @@ subtitle: a list of useful links
 published: false
 ---
 
-This page collects external links, useful in projects where [I](saltgz.github.io) was involved.
+This page collects external links, useful in projects where I was involved.
 To be more specific, this is a selected subset of the links you can find [at this url](https://imada.sdu.dk/Employees/marco/Misc/index.html), plus some that I have collected personally.
 
 **Proper writing**

@@ -19,7 +19,7 @@ These handouts represent any miscellaneous information we need to communicate wi
 | 5   | [Installing Python for Windows](https://github.com/stanfordpython/python-handouts/blob/master/installing-python-windows.md) |
 | 4   | [Installing Python for Linux](https://github.com/stanfordpython/python-handouts/blob/master/installing-python-linux.md)     |
 | 3   | [Installing Python for macOS](ttps://github.com/stanfordpython/python-handouts/blob/master/installing-python-macos.md)      |
-| 2   | [Syllabus](http://www.cs.unibo.it/~martini/AI/index.html)                                                                   |
+| 2   | [Syllabus](http://www.cs.unibo.it/~martini/AI/schedule.html)                                                                   |
 | 1   | [Course Information](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/446600)                        |
 
 ##### Readings

@@ -47,5 +47,5 @@ Are you so quick in learning? Do you feel like you already know everything? Chec
 
 | #   | Topic + Slides deck                                                                                       | Handout                                                                                                                              | Solutions |
 | --- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------- |
-| 2   | [Iterations and Immutables](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_iterations_immutables.pdf?dl=0) | [Handout](https://github.com/szingaro/szingaro.github.io/blob/master/assets/teaching/python-labs/notebooks/002-datastructures.ipynb) | -         |
+| 2   | [Iterations and Immutables](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_iterations_immutables.pdf?dl=0) | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/002-datastructures.ipynb) | -         |
 | 1   | [Introducing lab and Python](https://www.dropbox.com/s/c02mqv85y1wl2jl/main.pdf?dl=0)                     | -                                                                                                                                    | -         |

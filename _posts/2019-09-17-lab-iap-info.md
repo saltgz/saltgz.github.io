@@ -19,7 +19,7 @@ These handouts represent any miscellaneous information we need to communicate wi
 | 5   | [Installing Python for Windows](https://github.com/stanfordpython/python-handouts/blob/master/installing-python-windows.md) |
 | 4   | [Installing Python for Linux](https://github.com/stanfordpython/python-handouts/blob/master/installing-python-linux.md)     |
 | 3   | [Installing Python for macOS](ttps://github.com/stanfordpython/python-handouts/blob/master/installing-python-macos.md)      |
-| 2   | [Syllabus](http://www.cs.unibo.it/~martini/AI/schedule.html)                                                                   |
+| 2   | [Syllabus](http://www.cs.unibo.it/~martini/AI/schedule.html)                                                                |
 | 1   | [Course Information](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/446600)                        |
 
 ##### Readings
@@ -45,7 +45,8 @@ Each problem is chosen to reinforce a particular concept, but you are free to sk
 
 Are you so quick in learning? Do you feel like you already know everything? Check out what Python offers you at [Learn X in Y minutes](https://learnxinyminutes.com/docs/python3/).
 
-| #   | Topic + Slides deck                                                                                       | Handout                                                                                                                              | Solutions |
-| --- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------- |
-| 2   | [Iterations and Immutables](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_iterations_immutables.pdf?dl=0) | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/002-datastructures.ipynb) | -         |
-| 1   | [Introducing lab and Python](https://www.dropbox.com/s/c02mqv85y1wl2jl/main.pdf?dl=0)                     | -                                                                                                                                    | -         |
+| #   | Topic + Slides deck                                                                               | Handout                                                                                           | Solutions                                                                                   |
+| --- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| 3   | [Data Structures (part II) - Lists](https://www.dropbox.com/s/is63hvds29oovy1/003_Lists.pdf?dl=0) | -                                                                                                 | -                                                                                           |
+| 2   | [Data Structures](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_data_structure.pdf?dl=0)          | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/002-datastructures.ipynb) | [Solutions](https://github.com/szingaro/python-labs/blob/master/solutions/002/solutions.py) |
+| 1   | [Introducing lab and Python](https://www.dropbox.com/s/c02mqv85y1wl2jl/main.pdf?dl=0)             | -                                                                                                 | -                                                                                           |

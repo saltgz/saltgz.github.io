@@ -4,15 +4,18 @@ categories: education
 published: true
 ---
 
-Introduction to Algorithms and Programming Laboratory, _A. A.2019-2020_, **Artificial Intelligence Master Degree in
-Computer Science and Engineering, University of Bologna**.
+Introduction to Algorithms and Programming Laboratory, _A. A.2019-2020_, 
+**Artificial Intelligence Master Degree in Computer Science and Engineering, University of Bologna**.
 
-[Professor Simone Martini](http://cs.unibo.it/~martini) helds the first part of the course, [Professor Maurizio
-Gabbrielli](http://cs.unibo.it/~gabbri) helds the second part.
+[Professor Simone Martini](http://cs.unibo.it/~martini) held the first part of 
+the course, [Professor Maurizio Gabbrielli](http://cs.unibo.it/~gabbri) held 
+the second part.
 
 ##### Handouts
 
-These handouts represent any miscellaneous information we need to communicate with you. Usually, these handouts contain logistical instructions, but anything goes!
+These handouts represent any miscellaneous information we need to communicate 
+with you. 
+Usually, these handouts contain logistical instructions, but anything goes!
 
 | #   | Handout                                                                                                                     |
 | --- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -24,7 +27,13 @@ These handouts represent any miscellaneous information we need to communicate wi
 
 ##### Readings
 
-These optional reading materials are posted to supplement the course material for those who are very interested in Python. You will not be held responsible for any information presented only through optional readings; however, the material is fascinating and worth looking at. Currently, it's just a list of articles I find interesting - there may be more structure in the future.
+These optional reading materials are posted to supplement the course material 
+for those who are very interested in Python. 
+You will not be held responsible for any information presented only 
+through optional readings; however, the material is fascinating and 
+worth looking at. 
+Currently, it's just a list of articles I find interesting --- there 
+may be more structure in the future.
 
 | #   | Reading                                                                                                    | Credit           |
 | --- | ---------------------------------------------------------------------------------------------------------- | ---------------- |
@@ -45,8 +54,10 @@ Each problem is chosen to reinforce a particular concept, but you are free to sk
 
 Are you so quick in learning? Do you feel like you already know everything? Check out what Python offers you at [Learn X in Y minutes](https://learnxinyminutes.com/docs/python3/).
 
-| #   | Topic + Slides deck                                                                               | Handout                                                                                           | Solutions                                                                                   |
-| --- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| 3   | [Data Structures (part II) - Lists](https://www.dropbox.com/s/is63hvds29oovy1/003_Lists.pdf?dl=0) | [:arrow_down:]                                                                                                 | -                                                                                           |
-| 2   | [Data Structures](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_data_structure.pdf?dl=0)          | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/002-datastructures.ipynb) | [Solutions](https://github.com/szingaro/python-labs/blob/master/solutions/002/solutions.py) |
-| 1   | [Introducing lab and Python](https://www.dropbox.com/s/c02mqv85y1wl2jl/main.pdf?dl=0)             | -                                                                                                 | -                                                                                           |
+| #   | Topic + Slides deck                                                                               | Handout                                                                                           | Solutions                                                                                     |
+| --- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 5   | Object Oriented Programming                                                                       | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/002-oop.ipynb)            | -                                                                                             |
+| 4   | Functions (extra)                                                                                 | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/001b-functions.ipynb)     | [Solutions](https://github.com/szingaro/python-labs/blob/master/solutions/functions.py)       |
+| 3   | [Data Structures (part II) - Lists](https://www.dropbox.com/s/is63hvds29oovy1/003_Lists.pdf?dl=0) | _Same as the handout n.2_                                                                         | _Solutions are provided in the notebook_                                                      |
+| 2   | [Data Structures](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_data_structure.pdf?dl=0)          | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/001-datastructures.ipynb) | [Solutions](https://github.com/szingaro/python-labs/blob/master/solutions/data_structures.py) |
+| 1   | [Introducing lab and Python](https://www.dropbox.com/s/c02mqv85y1wl2jl/main.pdf?dl=0)             | -                                                                                                 | -                                                                                             |

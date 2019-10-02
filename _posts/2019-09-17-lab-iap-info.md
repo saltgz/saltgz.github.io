@@ -4,17 +4,18 @@ categories: education
 published: true
 ---
 
-Introduction to Algorithms and Programming Laboratory, _A. A.2019-2020_, 
-**Artificial Intelligence Master Degree in Computer Science and Engineering, University of Bologna**.
+Introduction to Algorithms and Programming Laboratory, _A. A.2019-2020_,
+**Artificial Intelligence Master Degree** in
+**Computer Science and Engineering**, **University of Bologna**.
 
-[Professor Simone Martini](http://cs.unibo.it/~martini) held the first part of 
-the course, [Professor Maurizio Gabbrielli](http://cs.unibo.it/~gabbri) held 
+[Professor Simone Martini](http://cs.unibo.it/~martini) teaches the first part of
+the course, [Professor Maurizio Gabbrielli](http://cs.unibo.it/~gabbri) teaches
 the second part.
 
 ##### Handouts
 
-These handouts represent any miscellaneous information we need to communicate 
-with you. 
+These handouts represent any miscellaneous information we need to communicate
+with you.
 Usually, these handouts contain logistical instructions, but anything goes!
 
 | #   | Handout                                                                                                                     |
@@ -27,12 +28,12 @@ Usually, these handouts contain logistical instructions, but anything goes!
 
 ##### Readings
 
-These optional reading materials are posted to supplement the course material 
-for those who are very interested in Python. 
-You will not be held responsible for any information presented only 
-through optional readings; however, the material is fascinating and 
-worth looking at. 
-Currently, it's just a list of articles I find interesting --- there 
+These optional reading materials are posted to supplement the course material
+for those who are very interested in Python.
+You will not be held responsible for any information presented only
+through optional readings; however, the material is fascinating and
+worth looking at.
+Currently, it's just a list of articles I find interesting --- there
 may be more structure in the future.
 
 | #   | Reading                                                                                                    | Credit           |
@@ -48,15 +49,29 @@ may be more structure in the future.
 
 ##### Labs
 
-Labs provide a hands-on opportunity to experiment with the Python concepts presented in lectures. Although students work on these labs during an 90-minute class period, it would take much longer to fully complete a lab. Each lab comes with a number of challenge problems that will take even the experiences programmer nontrivial time. Labs are collaborative and open-ended, frequently asking you to think about how or why Python makes the decisions it does.
+Labs provide a hands-on opportunity to experiment with the Python concepts
+presented in lectures.
+Although students work on these labs during an 90-minute class period, it
+would take much longer to fully complete a lab.
+Each lab comes with a number of challenge problems that will take even the
+experiences programmer nontrivial time.
+Labs are collaborative and open-ended, frequently asking you to think about
+how or why Python makes the decisions it does.
+Each problem is chosen to reinforce a particular concept, but you are free to
+skip around at will.
+You are not expected to submit your solutions to labs, although our reference
+solutions will be posted afterwards.
+Think of labs as a chance to solidify your working knowledge of Python ---
+after all, what better way to learn Python than to practice it?
 
-Each problem is chosen to reinforce a particular concept, but you are free to skip around at will. You are not expected to submit your solutions to labs, although our reference solutions will be posted afterwards. Think of labs as a chance to solidify your working knowledge of Python - after all, what better way to learn Python than to practice it?
-
-Are you so quick in learning? Do you feel like you already know everything? Check out what Python offers you at [Learn X in Y minutes](https://learnxinyminutes.com/docs/python3/).
+Are you so quick in learning? Do you feel like you already know everything?
+Challenge yourself with this comprehensive list of Python constructs at
+[Learn X in Y minutes](https://learnxinyminutes.com/docs/python3/).
 
 | #   | Topic + Slides deck                                                                               | Handout                                                                                           | Solutions                                                                                     |
 | --- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 5   | Object Oriented Programming                                                                       | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/002-oop.ipynb)            | -                                                                                             |
+| 6   | Exception Handling                                                                                | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/003-exceptions.ipynb)     | -                                                                                             |
+| 5   | Object Oriented Programming                                                                       | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/002-oop.ipynb)            | _To be added to OOP notebook_                                                                 |
 | 4   | Functions (extra)                                                                                 | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/001b-functions.ipynb)     | [Solutions](https://github.com/szingaro/python-labs/blob/master/solutions/functions.py)       |
 | 3   | [Data Structures (part II) - Lists](https://www.dropbox.com/s/is63hvds29oovy1/003_Lists.pdf?dl=0) | _Same as the handout n.2_                                                                         | _Solutions are provided in the notebook_                                                      |
 | 2   | [Data Structures](https://www.dropbox.com/s/8er7r0wn9gir8b1/002_data_structure.pdf?dl=0)          | [Handout](https://github.com/szingaro/python-labs/blob/master/notebooks/001-datastructures.ipynb) | [Solutions](https://github.com/szingaro/python-labs/blob/master/solutions/data_structures.py) |

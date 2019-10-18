@@ -21,4 +21,8 @@ Planning to visit me? Please, send an email at [stefanopio.zingaro
 
 As you may have already noticed, my [GitHub
 username](https://github.com/szingaro) is `szingaro` and, in case you were
-looking for that, I do not hold a _Facebook_ account. If you are interested in knowing more about me and my work, you can have a look at [my personal profile](www.linkedin.com/in/szingaro) on _LinkedIn_ or you can follow [@PioZingaro](<[www.linkedin.com/in/szingaro](https://twitter.com/PioZingaro)>) on _Twitter_ to catch up with my stream.
+looking for that, I do not hold a _Facebook_ or _LinkedIn_ accounts. 
+If you are interested in knowing more about me and my work, you can follow [@pio\_zingaro](https://twitter.com/pio_zingaro) on _Twitter_ and catch up with my stream.
+
+Below, I list some other references that could be of interest for the reader. 
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-8462-5651" href="https://orcid.org/0000-0002-8462-5651" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-8462-5651</a></div>

@@ -1,19 +1,15 @@
 items:
-# - title: Home
-#   url: index.html
+- title: Bio
+  url: index.html
 - title: Research Blog
   url: research/index.html
-# - title: Blog
-#   url: blog/index.html
 - title: Education Blog
   url: education/index.html
 - title: AIP @ CS
   url: education/lab-iap-info.html
 - title: SO @ InfoMan
   url: education/so-lab-cs.html
-- title: Dissemination Blog
+- title: Dissemination Blog 
   url: dissemination/index.html
-# - title: Resources
-#   url: resources.html
 - title: Contacts
   url: contacts.html

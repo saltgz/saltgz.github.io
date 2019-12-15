@@ -1,5 +1,5 @@
 ---
-title: Data Mining and Machine Learning with WEKA
+title: Machine Learning @ Bologna Business School
 categories: education
 ---
 

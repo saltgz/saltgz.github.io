@@ -5,17 +5,16 @@ categories: research
 ---
 
 In this post we discuss language-based approach for IoT and Edge integration as
-it was presented at the last [Microservices Conference
-2019](https://www.conf-micro.services/), held in Dortmund on March.
+it was presented at the last [Microservices Conference 2019](https://www.conf-micro.services/), held in Dortmund on March.
 
 The approach is based on the usage of the microservice-oriented programming
 language [Jolie](http://jolie-lang.org), extended to support IoT
 protocols such as CoAP and MQTT.
 
-A slide deck of the presentation used at the conference is also availble
+A slide deck of the presentation used at the conference is also available
 [here](https://www.conf-micro.services/2019/slides/papers/day2/applications2/Zingaro.pdf).
 
-###### An Introduction to Microservices for the Edge
+##### An Introduction
 
 Microservices are a new trend in software architecture, advocating for building
 modern large scale software systems using a flexible composition of small,
@@ -46,7 +45,7 @@ integration (both cross-layer and cross-platform). We will follow a
 language-based approach focusing on integration at both the transport and
 application layer.
 
-###### A Microservice-Oriented Language for IoT
+##### A Microservice-Oriented Language for IoT
 
 We could tackle the problems mentioned above from different directions, e.g., by
 creating a library for a general-purpose programming language, by developing a
@@ -66,7 +65,7 @@ Fog computing scenarios.
 However, IoT applications rely not only on the technologies above, but they also
 need to support the most used communication stacks at the Things layer. Those
 are based on lightweight and connection-less protocols such as CoAP over UDP,
-respec- tively at application and tranport level, or asynchronous
+respectively at application and transport level, or asynchronous
 publish/subscribe protocols such as MQTT. Thus, we focused on their integration
 in the Jolie interpreter. Notably, when the ap- plication protocol supports
 different data formats (such as JSON, XML, etc.) for the message payload, as in
@@ -77,7 +76,7 @@ support for CoAP over UDP and MQTT.
 
 We now give an overview on how protocols are implemented in Jolie, to clarify
 the steps we had to take to add the protocols above. In Jolie the
-implementations of the supported applica- tion and transport protocols are
+implementations of the supported application and transport protocols are
 independent. This enables the composition of any transport protocol with any
 application protocol. Being written in Java, the Jolie interpreter provides
 proper abstract classes that represent application and transport protocols. Each
@@ -86,7 +85,7 @@ Each implementation is a separated library which is loaded only if the protocol
 is used. The main challenge has been integrating MQTT publish/subscribe into the
 Jolie framework, which is designed to support end-to-end communications.
 
-###### An illustrative Example
+##### An Example
 
 We illustrate the proposed approach considering a common "edge computing"
 scenario in IoT applications development, where we need to collect temperature
@@ -102,7 +101,8 @@ deployment, describing in a declarative way how communication is performed
 change which communication stack to use, preserving the same logic for the
 elaboration.
 
-```php
+{% highlight jolie linenos %}
+
 interface TemperatureInterface {
   OneWay: receiveTemperature( string )
 }
@@ -133,9 +133,10 @@ main
   receiveTemperature( data );
   //...
 }
-```
 
-###### Final considerations
+{% endhighlight %}
+
+##### Final considerations
 
 Several ongoing European projects, e.g. Inter-IoT, tackle the problem of
 collaboration and integration among heterogeneous systems. Technology-wise,

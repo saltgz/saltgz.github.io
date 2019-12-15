@@ -2,8 +2,7 @@ header:
   navigation: true
   align: "left" # "left" | "center" | "right"
   text: >
-    <h4 class="text-muted">official <span class="text-primary">PhD</span> web site of</h4>
-    <h2><span class="text-primary">S</span>tefano <span class="text-primary">p</span>io <span class="text-primary">Z</span>ingaro</h2>
+    <span class="h5"><span class="text-primary">S</span>tefano <span class="text-primary">p</span>io <span class="text-primary">Z</span>ingaro</span> - <span class="h6">PostDoc at the University of Bologna</span>
     
 
 main:

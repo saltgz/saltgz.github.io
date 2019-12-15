@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% if page.noindex == true %}
+  <meta name="robots" content="noindex">
+{% endif %}
+
 <div class="card border-0">
   <div class="card-header bg-white">
     <i class="fas fa-rss mr-2" aria-hidden="true"></i>

@@ -1,15 +1,15 @@
 # Serve Command Options
 port: 9001
 host: "localhost"
-baseurl: "" # the optional subpath of your site, e.g. "/blog"
+baseurl: "" 
 detach: false
-url: "https://szingaro.github.io/" #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://szingaro.github.io/" 
 
 # Build Command Options
 show_drafts: false
 future: false
 unpublished: false
-incremental: false
+incremental: true
 profile: false
 strict_front_matter: true
 
@@ -58,28 +58,22 @@ collections:
     output: false
     permalink: /:collection/:name/
 
-# Front Matter Defaults
 defaults:
-  # _posts
   - scope:
       path: "_posts"
       type: posts
     values:
       layout: post
-      read_time: true
-  # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: page
-  # _categories
   - scope:
       path: "_categories"
       type: categories
     values:
       layout: blog
-  # _authors
   - scope:
       path: "_authors"
       type: authors

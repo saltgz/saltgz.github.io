@@ -5,9 +5,9 @@ layout: default
 <div class="card border-0">
   <div class="card-body">
     {% if site.data.style.main.blog.title %}
-    <h5 class="card-title">{{ page.title | escape }}</h5>
+    <h3 class="card-title font-weight-light">{{ page.title | escape }}</h3>
     {% if page.subtitle %}
-    <h6 class="card-subtitle mb-2 text-muted">{{ page.subtitle | escape }}</h6>
+    <h4 class="card-subtitle mb-2 text-muted font-weight-light">{{ page.subtitle | escape }}</h4>
     {% endif %} {% endif %} {%- for post in site.posts -%} {%- assign condition
     = true -%} {%- assign compare = page.title | downcase -%} {%- if page.scope
     == 'authors' -%} {%- assign post_author = post.author | downcase -%} {%- if
@@ -23,14 +23,14 @@ layout: default
       {% endif %}
       <div class="card-body">
         <a href="{{ post.url | relative_url | prepend: site.baseurl }}">
-          <h5 class="card-title">{{ post.title | escape }}</h5>
+          <h3 class="card-title font-weight-light">{{ post.title | escape }}</h3>
         </a>
         <p class="card-text">{{ post.excerpt | strip_html | truncate: 240 }}</p>
         <p class="card-text">
           {%- if post.author -%}
           <small class="text-muted">by </small>
           <a class="card-link badge badge-light text-dark" href="{{ post.author | relative_url }}/index.html">{{ post.author }} | </a>{%- endif -%}
-          <small class="text-muted">{{ post.date | date_to_long_string }}</small>
+          <small class="text-muted">This article was last updated on {{ post.date | date_to_long_string }}</small>
           {%- if site.data.style.main.article.word_count -%}
           <small class="text-muted"> | {{ post.content | number_of_words }} {{ site.data.style.main.blog.words }}</small>
           {%- endif -%}

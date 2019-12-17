@@ -2,7 +2,7 @@ header:
   navigation: true
   align: "left" # "left" | "center" | "right"
   text: >
-    <span class="h5"><span class="text-primary">S</span>tefano <span class="text-primary">p</span>io <span class="text-primary">Z</span>ingaro</span> - <span class="h6">PostDoc at the University of Bologna</span>
+    <span class="h3 font-weight-light"><span class="text-primary">S</span>tefano <span class="text-primary">p</span>io <span class="text-primary">Z</span>ingaro</span><span class="h4  font-weight-light">&nbsp;&middot;&nbsp;Postdoc @ Università di Bologna</span>
     
 
 main:

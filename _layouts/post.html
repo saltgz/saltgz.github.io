@@ -2,22 +2,18 @@
 layout: default
 ---
 
-{% if page.noindex == true %}
-  <meta name="robots" content="noindex">
-{% endif %}
-
 <div class="card border-0">
   <div class="card-header bg-white">
-    <i class="fas fa-rss mr-2" aria-hidden="true"></i>
     {%- if site.feed.path -%}
+    <i class="fas fa-rss mr-2" aria-hidden="true"></i>
     <a class="text-dark" href="{{ site.feed.path | relative_url | prepend: site.baseurl }}" title="Atom Feed RSS">{{ site.data.style.main.article.feed_message }}</a>
     {%- endif -%}
   </div>
   <div class="card-body">
-    <h5 class="card-title">{{ page.title | escape }}</h5>
+    <!-- <h5 class="card-title">{{ page.title | escape }}</h5>
     {% if page.subtitle %}
     <h6 class="card-subtitle mb-2 text-muted">{{ page.subtitle | escape }}</h6>
-    {% endif %}
+    {% endif %} -->
     <p class="card-text">{{ content }}</p>
   </div>
   <!-- <div class="card-footer">

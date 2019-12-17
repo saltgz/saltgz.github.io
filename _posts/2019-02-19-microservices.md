@@ -4,15 +4,11 @@ subtitle: ... a report from the microservices conference 2019
 categories: research
 ---
 
-In this post we discuss language-based approach for IoT and Edge integration as
-it was presented at the last [Microservices Conference 2019](https://www.conf-micro.services/), held in Dortmund on March.
+In this post we discuss language-based approach for IoT and Edge integration as it was presented at the last [Microservices Conference 2019](https://www.conf-micro.services/), held in Dortmund in March '19.
 
-The approach is based on the usage of the microservice-oriented programming
-language [Jolie](http://jolie-lang.org), extended to support IoT
-protocols such as CoAP and MQTT.
+The approach is based on the usage of the microservice-oriented programming language [Jolie](http://jolie-lang.org), extended to support IoT protocols such as _CoAP_ and _MQTT_.
 
-A slide deck of the presentation used at the conference is also available
-[here](https://www.conf-micro.services/2019/slides/papers/day2/applications2/Zingaro.pdf).
+A slide deck of the presentation used at the conference is also available [here](https://www.conf-micro.services/2019/slides/papers/day2/applications2/Zingaro.pdf).
 
 ##### An Introduction
 

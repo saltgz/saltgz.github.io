@@ -9,7 +9,7 @@ url: "https://szingaro.github.io/"
 show_drafts: false
 future: false
 unpublished: false
-incremental: true
+incremental: false
 profile: false
 strict_front_matter: true
 

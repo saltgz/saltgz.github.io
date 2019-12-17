@@ -4,9 +4,9 @@ layout: default
 
 <div class="card border-0">
   <div class="card-body">
-    <h5 class="card-title">{{ page.title | escape }}</h5>
+    <h3 class="card-title font-weight-light">{{ page.title | escape }}</h3>
     {% if page.subtitle %}
-    <h6 class="card-subtitle mb-2 text-muted">{{ page.subtitle | escape }}</h6>
+    <h4 class="card-subtitle mb-2 text-muted font-weight-light">{{ page.subtitle | escape }}</h4>
     {% endif %}
     <p class="card-text">{{ content | markdownify }}</p>
   </div>

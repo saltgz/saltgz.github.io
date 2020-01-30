@@ -1,5 +1,5 @@
 ---
 title: Dissemination
-subtitle: listing technology transfer-related activities I am involved
+subtitle: listing those activities related to technology-transfer (namely third mission)
 scope: categories
 ---

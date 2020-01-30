@@ -8,7 +8,9 @@ layout: default
     <h3 class="card-title font-weight-light">{{ page.title | escape }}</h3>
     {% if page.subtitle %}
     <h4 class="card-subtitle mb-2 text-muted font-weight-light">{{ page.subtitle | escape }}</h4>
-    {% endif %} {% endif %} {%- for post in site.posts -%} {%- assign condition
+    {% endif %} {% endif %}
+    {%- for post in site.posts -%}
+    {%- assign condition
     = true -%} {%- assign compare = page.title | downcase -%} {%- if page.scope
     == 'authors' -%} {%- assign post_author = post.author | downcase -%} {%- if
     post_author == compare -%} {%- assign condition = true -%} {%- else -%} {%-
@@ -18,9 +20,9 @@ layout: default
     -%} {%- endif -%} {%- if condition -%}
 
     <div class="card mb-3 border-1">
-      {% if post.image %}
-      <img src="{{ post.image }}" class="card-img-top" alt="Featured image of the post" />
-      {% endif %}
+      <!-- <a href="{{ post.url | relative_url | prepend: site.baseurl }}">
+        <img id="post-featured-img" class="img-fluid rounded">
+      </a> -->
       <div class="card-body">
         <a href="{{ post.url | relative_url | prepend: site.baseurl }}">
           <h3 class="card-title font-weight-light">{{ post.title | escape }}</h3>
@@ -29,10 +31,12 @@ layout: default
         <p class="card-text">
           {%- if post.author -%}
           <small class="text-muted">by </small>
-          <a class="card-link badge badge-light text-dark" href="{{ post.author | relative_url }}/index.html">{{ post.author }} | </a>{%- endif -%}
+          <a class="card-link badge badge-light text-dark"
+            href="{{ post.author | relative_url }}/index.html">{{ post.author }} | </a>{%- endif -%}
           <small class="text-muted">This article was last updated on {{ post.date | date_to_long_string }}</small>
           {%- if site.data.style.main.article.word_count -%}
-          <small class="text-muted"> | {{ post.content | number_of_words }} {{ site.data.style.main.blog.words }}</small>
+          <small class="text-muted"> | {{ post.content | number_of_words }}
+            {{ site.data.style.main.blog.words }}</small>
           {%- endif -%}
         </p>
       </div>

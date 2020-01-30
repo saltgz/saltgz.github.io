@@ -1,15 +1,11 @@
 items:
-- title: Index
+- title: Home
   url: index.html
-- title: Research Blog
+- title: Research
   url: research/index.html
-- title: Education Blog
+- title: Teaching
   url: education/index.html
-- title: AIP @ CS
-  url: education/lab-iap-info.html
-- title: SO @ InfoMan
-  url: education/so-lab-cs.html
-- title: Dissemination Blog 
+- title: Dissemination
   url: dissemination/index.html
 - title: Contacts
   url: contacts.html

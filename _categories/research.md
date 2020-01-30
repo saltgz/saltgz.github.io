@@ -1,5 +1,5 @@
 ---
 title: Research
-subtitle: a list of academic activities I am involved
+subtitle: summarizing academic activities
 scope: categories
 ---

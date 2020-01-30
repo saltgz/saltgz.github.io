@@ -1,5 +1,5 @@
 ---
 title: Education
-subtitle: presenting and provide material for teaching activities I am involved
+subtitle: presenting teaching activities and providing material
 scope: categories
 ---

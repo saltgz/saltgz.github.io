@@ -28,6 +28,7 @@ exclude:
 
 # Meta
 lang: en-US
+description: Academic Website of Stefano Pio Zingaro PostDoc at Università di Bologna
 # social_image_path:   /assets/img/brand/social.jpg
 # social_logo_path:    /assets/img/brand/social.jpg
 
@@ -38,11 +39,10 @@ markdown: kramdown
 permalink: /:categories/:slug:output_ext
 
 # Build settings
-# theme:             jekyll-theme-minimal-bootstrap
+# theme: jekyll-theme-minimal-bootstrap
 plugins: # some plugins need by the theme
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
 feed:
   path: atom.xml
 

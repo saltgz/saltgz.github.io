@@ -1,11 +1,11 @@
 items:
 - title: Home
-  url: index.html
+  url: /index.html
 - title: Research
-  url: research/index.html
+  url: /research/index.html
 - title: Teaching
-  url: education/index.html
+  url: /education/index.html
 - title: Dissemination
-  url: dissemination/index.html
-- title: Contacts
-  url: contacts.html
+  url: /dissemination/index.html
+- title: Contact
+  url: /contact.html

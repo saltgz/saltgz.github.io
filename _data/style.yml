@@ -1,34 +1,22 @@
 header:
-  navigation: true
-  align: "left" # "left" | "center" | "right"
-  text: >
-    <span class="h3 font-weight-light"><span class="text-primary">S</span>tefano <span class="text-primary">p</span>io <span class="text-primary">Z</span>ingaro</span><span class="h4  font-weight-light">&nbsp;&middot;&nbsp;Postdoc @ Università di Bologna</span>
+  content:
+    left: >
+      <span class="h3 font-weight-light"><span class="text-primary">S</span>tefano <span class="text-primary">p</span>io <span class="text-primary">Z</span>ingaro</span><span class="h4  font-weight-light">&nbsp;&middot;&nbsp;Postdoc @ Università di Bologna</span>
+    right: >
+  google-analytics-id: UA-112361799-1
     
-
 main:
   blog:
     title: true
-    align: "left" # "left" | "center" | "right"
     words: "words"
   article:
-    align: "left" # "left" | "center" | "right"
     word_count: false
     feed_message: "Subscribe to the RSS feed to get notified of updates"
     nav_message: >
-      You can navigate post categories using the following links.
-
-copyright:
-  creative_common: false # "true" | "false"
-  align: "left" # "left" | "center" | "right"
-  text: >
-    Except where otherwise <a
-    href="https://creativecommons.org/policies#license">noted</a>, content on
-    this site is licensed under a <a
-    href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative
-    Commons Attribution 4.0 International license</a>.
-
+      <span class="text-muted">You can navigate post categories using the following links.</span>
 
 footer:
-  align: "left" # "left" | "center" | "right"
-  text: >
-    You can navigate the website content using the following links.
+  content:
+    left: >
+       <span class="text-muted">Except where otherwise <a href="https://creativecommons.org/policies#license">noted</a>, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</span>
+    right:

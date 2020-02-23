@@ -7,5 +7,4 @@ $(function () {
       $(this).attr("target", "_blank");
     }
   });
-  $(".twitter-timeline").attr("data-height", $("#center-column").height());
 });

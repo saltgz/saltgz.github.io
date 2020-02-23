@@ -1,0 +1,18 @@
+<div class="row">
+
+    <div class="col-lg-7 float-left">
+        {{ site.data.style.footer.content.left }}
+        <p>
+            {%- for item in site.data.nav.items -%}
+            <a class="card-link badge badge-light text-dark" href="{{ item.url }}">
+                {{ item.title | escape }}
+            </a>
+            {%- endfor -%}
+        </p>
+    </div>
+
+    <div class="col-lg-5 float-right">
+        {{ site.data.style.footer.content.right }}
+    </div>
+
+</div>

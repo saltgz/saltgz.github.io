@@ -1,14 +1,9 @@
-<div class="card border-left-0 border-right-0 border-bottom-0 border-top-0 rounded-0">
-  <div class="card-body">
-    <h3 class="card-title font-weight-light">Hot Links</h3>
-    <ul class="navbar-nav flex-sm-column justify-content-around align-items-left">
-      {%- for item in site.data.nav.items -%}
-      <li class="nav-item">
-        <a class="nav-link" href="{{ item.url | relative_url | prepend: site.baseurl }}">
-          {{ item.title | escape }}
+<ul class="navbar-nav flex-sm-column justify-content-around align-items-left">
+    {%- for item in site.data.nav.items -%}
+    <li class="nav-item px-2 mb-1 bg-light rounded">
+        <a class="nav-link text-dark" href="{{ item.url }}">
+            {{ item.title | escape }}
         </a>
-      </li>
-      {%- endfor -%}
-    </ul>
-  </div>
-</div>
+    </li>
+    {%- endfor -%}
+</ul>

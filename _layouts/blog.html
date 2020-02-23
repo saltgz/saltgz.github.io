@@ -25,7 +25,7 @@ layout: default
       </a> -->
       <div class="card-body">
         <a href="{{ post.url | relative_url | prepend: site.baseurl }}">
-          <h3 class="card-title font-weight-light">{{ post.title | escape }}</h3>
+          <h3 class="card-title font-weight-light stretched-link">{{ post.title | escape }}</h3>
         </a>
         <p class="card-text">{{ post.excerpt | strip_html | truncate: 240 }}</p>
         <p class="card-text">

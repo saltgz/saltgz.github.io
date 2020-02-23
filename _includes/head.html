@@ -1,15 +1,36 @@
-{% include analytics.html %}
-
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta name="description" content="{{ site.data.style.header.text | strip_html | smartify }}" />
+<meta name="description" content="{{ site.description | strip_html }}" />
 <meta name="author" content="Stefano Pio Zingaro" />
 <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
 
 <title>
-  {%- if page.title -%}{{ page.title | smartify }}&nbsp;&middot;{%- endif -%}&nbsp;
-  {{ site.data.style.header.text | strip_html | smartify }}
+  {{ site.description | strip_html }}{%- if page.title -%}&nbsp;&#124;&nbsp;{{ page.title }}&nbsp;{%- endif -%}
 </title>
 
-{% include stylesheet.html %}
-{% include favicons.html %}
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="{% link assets/favicon_io/apple-touch-icon.png %}">
+<link rel="icon" type="image/png" sizes="32x32" href="{% link assets/favicon_io/favicon-32x32.png %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% link assets/favicon_io/favicon-16x16.png %}">
+<link rel="icon" href="{% link assets/favicon_io/favicon.ico %}" />
+<link rel="manifest" href="{% link assets/favicon_io/site.webmanifest %}">
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.style.header.google-analytics-id}}">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.data.style.header.google-analytics-id}}');
+</script>

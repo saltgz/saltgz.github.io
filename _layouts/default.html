@@ -5,30 +5,22 @@
   {%- include head.html -%}
 </head>
 
-<body class="container-fluid">
-  <header>{%- include header.html -%}</header>
+<body class="container">
+
+  <header class="border-bottom py-3">
+    {%- include header.html -%}
+  </header>
+
   <main id="content" role="main" class="py-2">
-    <div class="row">
-      <div class="col-lg-2 border-right">
-        {%- include navbar.html -%}
-      </div>
-      <div id="center-column" class="col-lg-7 border-right">
-        {{ content | markdownify }}
-      </div>
-      <div id="right-column" class="col-lg-3">
-        {%- include twitter.html -%}
-      </div>
-    </div>
+    {%- include main.html -%}
   </main>
-  <footer class="border-top">
-    <p class="text-muted">{{ site.data.style.footer.text}}</p>
-    {%- for item in site.data.nav.items -%}
-    <a class="card-link badge badge-light text-dark"
-      href="{{ item.url | relative_url | prepend: site.baseurl }}">{{ item.title | escape }}</a>
-    {%- endfor -%}
-    <p>{%- include copyright.html -%}</p>
+
+  <footer class="border-top py-3">
+    {%- include footer.html -%}
   </footer>
-  {%- include script.html -%}
+
 </body>
+
+{%- include script.html -%}
 
 </html>

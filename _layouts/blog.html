@@ -2,45 +2,39 @@
 layout: default
 ---
 
-<div class="card border-0">
-  <div class="card-body">
-    {% if site.data.style.main.blog.title %}
-    <h3 class="card-title font-weight-light">{{ page.title | escape }}</h3>
-    {% if page.subtitle %}
-    <h4 class="card-subtitle mb-2 text-muted font-weight-light">{{ page.subtitle | escape }}</h4>
-    {% endif %} {% endif %}
-    {%- for post in site.posts -%}
-    {%- assign condition
-    = true -%} {%- assign compare = page.title | downcase -%} {%- if page.scope
-    == 'authors' -%} {%- assign post_author = post.author | downcase -%} {%- if
-    post_author == compare -%} {%- assign condition = true -%} {%- else -%} {%-
-    assign condition = false -%} {%- endif -%} {%- elsif page.scope ==
-    'categories' -%} {%- if post.categories contains compare -%} {%- assign
-    condition = true -%} {%- else -%} {%- assign condition = false -%} {%- endif
-    -%} {%- endif -%} {%- if condition -%}
+<div class="px-1 py-3">
+  <h3 class="font-weight-light">
+    {{ page.title | escape }}
+  </h3>
+  {% if page.subtitle %}
+  <h4 class="mb-2 text-muted font-weight-light">
+    {{ page.subtitle | escape }}
+  </h4>
+  {% endif %}
 
-    <div class="card mb-3 border-1">
-      <!-- <a href="{{ post.url | relative_url | prepend: site.baseurl }}">
-        <img id="post-featured-img" class="img-fluid rounded">
-      </a> -->
-      <div class="card-body">
-        <a href="{{ post.url | relative_url | prepend: site.baseurl }}">
-          <h3 class="card-title font-weight-light stretched-link">{{ post.title | escape }}</h3>
-        </a>
-        <p class="card-text">{{ post.excerpt | strip_html | truncate: 240 }}</p>
-        <p class="card-text">
-          {%- if post.author -%}
-          <small class="text-muted">by </small>
-          <a class="card-link badge badge-light text-dark"
-            href="{{ post.author | relative_url }}/index.html">{{ post.author }} | </a>{%- endif -%}
-          <small class="text-muted">This article was last updated on {{ post.date | date_to_long_string }}</small>
-          {%- if site.data.style.main.article.word_count -%}
-          <small class="text-muted"> | {{ post.content | number_of_words }}
-            {{ site.data.style.main.blog.words }}</small>
-          {%- endif -%}
-        </p>
-      </div>
+  {%- for post in site.posts -%}
+  {%- assign compare = page.title | downcase -%}
+  {%- if post.categories contains compare -%}
+  <div class="card mb-3">
+    {% assign image_url = 'https://source.unsplash.com/random' %}
+    {% if post.image %}
+    {% assign image_url = post.image %}
+    {% endif %}
+    <img src="{{ image_url | append: '/480x110' }}" class="card-img-top" alt="The featured image for this post">
+    <div class="card-body">
+      <h5 class="card-title font-weight-light">
+        {{ post.title | escape }}
+      </h5>
+      <h6 class="card-subtitle mb-2 text-muted font-weight-light">
+        This article was last updated on {{ post.date | date_to_long_string }}
+      </h6>
+      <p class="card-text font-weight-light">
+        {{ post.excerpt | strip_html | truncate: 240 }}
+      </p>
+      <a href="{{ post.url }}" class="stretched-link"></a>
     </div>
-    {%- endif -%} {%- endfor -%}
   </div>
+  {%- endif -%}
+  {%- endfor -%}
+
 </div>

@@ -1,5 +1,5 @@
 ---
 title: Research
-subtitle: summarizing academic activities
+subtitle: Academic research activities
 scope: categories
 ---

@@ -2,12 +2,16 @@
 layout: default
 ---
 
-<div class="card border-0">
-  <div class="card-body">
-    <h3 class="card-title font-weight-light">{{ page.title | escape }}</h3>
-    {% if page.subtitle %}
-    <h4 class="card-subtitle mb-2 text-muted font-weight-light">{{ page.subtitle | escape }}</h4>
-    {% endif %}
-    <p class="card-text text-justify">{{ content | markdownify }}</p>
-  </div>
+<div class="px-1 py-3 text-justify">
+  <h3 class="font-weight-light">
+    {{ page.title | escape }}
+  </h3>
+  {% if page.subtitle %}
+  <h4 class="mb-2 text-muted font-weight-light">
+    {{ page.subtitle | escape }}
+  </h4>
+  {% endif %}
+  <p>
+    {{ content }}
+  </p>
 </div>

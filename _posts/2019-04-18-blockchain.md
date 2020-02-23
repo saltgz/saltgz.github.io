@@ -1,14 +1,17 @@
 ---
-title: Exploiting Blockchain technology with Microservices
+title: Exploiting Blockchain technology
+image: https://source.unsplash.com/lZzlQUblE_U
 categories: dissemination
 published: true
 ---
 
-Presentazione del 18 Aprile 2019 per [Data Science Bologna](https://www.datasciencebologna.eu/) nel *headquarter* di [MusixMatch](https://www.musixmatch.com/) sui temi di **Blockchain** e **Microservizi**.
+### Programmazione orientata ai servizi per Blockchain
+---
 
-#### N.B.
-La password per accedere al PDF è `musixmatch`.
+Presentazione del 18 Aprile 2019 per [Data Science Bologna](https://www.datasciencebologna.eu/) nel *headquarter* di [MusixMatch](https://www.musixmatch.com/) sui temi di **Blockchain** e **Service-Oriented Architectures**.
 
-|  #  |    Data    | Argomento                                                                   |                                                        Presentazione                                                         |                                                    Demo                                                    |
-| :-: | :--------: | --------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: |
-|  1  | 18/04/2019 | Introduzione alla tecnologia Blockchain orientata ai servizi | [<i class="fas fa-file-pdf" title="PDF"></i>](https://www.dropbox.com/s/kukaat9f69t9zsb/blockchain%2Bmicroservices.pdf?dl=0) | [<i class="fas fa-file-archive" title="ZIP"></i>](https://www.dropbox.com/s/nwdv3ai2kyv5gtw/demo.zip?dl=0) |
+#### Risorse
+
+Per ottenere la password per accedere al file pdf della presentazione potete contattarmi con le informazioni che trovate alla pagina [contatti](/contact.html).
+
+| **18/04/2019** | Introduzione alla tecnologia Blockchain | [<i class="fa fa-file-pdf-o"></i>](https://www.dropbox.com/s/kukaat9f69t9zsb/blockchain%2Bmicroservices.pdf?dl=0) | [<i class="fa fa-file-archive-o" title="ZIP"></i>](https://www.dropbox.com/s/nwdv3ai2kyv5gtw/demo.zip?dl=0) |

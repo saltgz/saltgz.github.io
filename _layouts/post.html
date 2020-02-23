@@ -2,27 +2,6 @@
 layout: default
 ---
 
-<div class="card border-0">
-  <div class="card-header bg-white">
-    {%- if site.feed.path -%}
-    <i class="fas fa-rss mr-2" aria-hidden="true"></i>
-    <a class="text-dark" href="{{ site.feed.path | relative_url | prepend: site.baseurl }}" title="Atom Feed RSS">{{ site.data.style.main.article.feed_message }}</a>
-    {%- endif -%}
-  </div>
-  <div class="card-body">
-    <!-- <h5 class="card-title">{{ page.title | escape }}</h5>
-    {% if page.subtitle %}
-    <h6 class="card-subtitle mb-2 text-muted">{{ page.subtitle | escape }}</h6>
-    {% endif %} -->
-    <p class="card-text">{{ content }}</p>
-  </div>
-  <!-- <div class="card-footer">
-    <p class="text-muted">{{ site.data.style.main.article.nav_message}}</p>
-    {%- for item in page.authors -%}
-    <a class="card-link badge badge-light text-dark" href="{{ site.baseurl }}/{{ item }}">{{ item | escape }}</a>
-    {%- endfor -%}
-    {%- for item in page.categories -%}
-    <a class="card-link badge badge-light text-dark" href="{{ site.baseurl }}/{{ item }}">{{ item | escape }}</a>
-    {%- endfor -%}
-  </div> -->
-</div>
+<span class="text-justify">
+  {{ content }}
+</span>

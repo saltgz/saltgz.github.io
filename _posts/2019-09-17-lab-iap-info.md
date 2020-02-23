@@ -1,6 +1,7 @@
 ---
 title: Introduction to Algorithms and Programming Lab @ AI Master
-categories: education
+image: https://source.unsplash.com/-g4sLlczxo0
+categories: teaching
 published: true
 ---
 

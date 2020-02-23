@@ -1,6 +1,7 @@
 ---
 title: Sistemi Operativi @ Informatica per il Management
-categories: education
+image: https://source.unsplash.com/ZV7lnfyQLmA
+categories: teaching
 ---
 
 # Syllabus - Laboratorio di Sistemi Operativi [58348]

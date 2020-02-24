@@ -10,11 +10,11 @@ Member of the [Focus Research Team at INRIA (Sophia-Antipolis)](http://focus.cs.
 Currently, I am involved in a Post-Doctoral position at the University of Bologna.
 The project aims to take advantage of _Machine Intelligence_ techniques and _Edge Computing_ to accomplish proper virtualization and to achieve optimal _workload mobility_ of software components in **Industrial Internet of Things** (IIoT) settings.
 
-<!-- In 2019, I completed my PhD, supervised by [Professor Maurizio Gabbrielli](http://www.cs.unibo.it/~gabbri/) and [Professor Ivan Lanese](http://www.cs.unibo.it/~lanese).
+In 2019, I completed my PhD, supervised by [Professor Maurizio Gabbrielli](http://www.cs.unibo.it/~gabbri/) and [Professor Ivan Lanese](http://www.cs.unibo.it/~lanese).
 The research focused on the exploitation of **Microservices-Oriented Computing** in the development of interoperable application for **Internet of Things** systems. 
 The European institution [EIT Digital](https://www.eitdigital.eu/) and the Italian company [Engineering SpA](https://www.eng.it) financially supported my grant.
 
-In 2018, the Head of the [Concurrency and Logic research group](https://concurrency.sdu.dk) of the [Department of Mathematics and Computer Science](https://www.sdu.dk/en/Om_SDU/Institutter_centre/Imada_matematik_og_datalogi) at the [University of Southern Denmark](https://www.sdu.dk/en/), [Professor Fabrizio Montesi](https://www.fabriziomontesi.com), invited me in a research project concerning the usage of programming language abstractions to manage data handling in _Edge Computing_ scenarios. -->
+In 2018, the Head of the [Concurrency and Logic research group](https://concurrency.sdu.dk) of the [Department of Mathematics and Computer Science](https://www.sdu.dk/en/Om_SDU/Institutter_centre/Imada_matematik_og_datalogi) at the [University of Southern Denmark](https://www.sdu.dk/en/), [Professor Fabrizio Montesi](https://www.fabriziomontesi.com), invited me in a research project concerning the usage of programming language abstractions to manage data handling in _Edge Computing_ scenarios.
 
 In addition to academic research activities, I am also interested in teaching-learning practices.
 In this regard, [I carried out several courses and workshops in Schools, Universities and Companies](education/).

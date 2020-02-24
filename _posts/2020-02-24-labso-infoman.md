@@ -80,3 +80,10 @@ Un elenco dei **progetti** svolti dagli studenti negli anni passati:
 #### Valutazione delle conoscenze
 
 Per il regolamento sulle modalità d'esame, leggere attentamente quanto riportato dal Professor Sangiorgi alla pagina [cs.unibo.it/~sangio/SO_currentAA/esame.txt](http://www.cs.unibo.it/~sangio/SO_currentAA/esame.txt).
+
+##### Honor Code (codice d'onore)
+
+In ottemperanza alle norme stabilite nel [__"Codice etico e di comportamento"__ dell'Università di Bologna](http://www.normateneo.unibo.it/codice_etico.html), in vigore dal 01/11/2014 con Decreto Rettorale n° 1408 del 01/10/2014, si stabilisce, nell'Art. 25, che la **responsabilità degli studenti nell'ambito del percorso di studio** sia la seguente:
+
+1. Costituisce diritto e dovere degli studenti la partecipazione attiva alle attività didattiche e formative, adottando comportamenti collaborativi, corretti e rispettosi nei confronti dei docenti e di coloro che svolgono attività di lavoro o di studio nelle Strutture dell’Università, nonché **condividendo una cultura improntata all'onestà dei comportamenti, alla responsabilità e al rispetto dell’Istituzione**.
+2. Nelle prove di verifica e nelle prove finali dei Corsi di studio gli studenti devono astenersi da comportamenti che arrechino disturbo, ostacolo ovvero risultino lesivi e/o disonesti nei confronti di altri studenti e dell’Istituzione. **Sono contrari ai principi del presente Codice il plagio o la copiatura di testi altrui o altri comportamenti che possano impedire una corretta valutazione della prova**.

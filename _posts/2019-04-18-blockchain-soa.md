@@ -1,11 +1,14 @@
 ---
 title: Exploiting Blockchain technology
+slug: blockchain-technology-introduction
 image: https://source.unsplash.com/lZzlQUblE_U
 categories: dissemination
 published: true
 ---
 
-### Programmazione orientata ai servizi per Blockchain
+### Introduzione alla tecnologia Blockchain
+<span class="text-muted h4">con le architetture a "servizi"</span>
+
 ---
 
 Presentazione del 18 Aprile 2019 per [Data Science Bologna](https://www.datasciencebologna.eu/) nel *headquarter* di [MusixMatch](https://www.musixmatch.com/) sui temi di **Blockchain** e **Service-Oriented Architectures**.

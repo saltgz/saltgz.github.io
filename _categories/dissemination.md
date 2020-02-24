@@ -1,5 +1,5 @@
 ---
 title: Dissemination
-subtitle: listing those activities related to technology-transfer (namely third mission)
+subtitle: Activities related to technology transfer
 scope: categories
 ---

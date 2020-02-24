@@ -15,24 +15,31 @@ layout: default
   {%- for post in site.posts -%}
   {%- assign compare = page.title | downcase -%}
   {%- if post.categories contains compare -%}
-  <div class="card mb-3">
+  <div class="card bg-light border-dark mb-3">
     {% assign image_url = 'https://source.unsplash.com/random' %}
     {% if post.image %}
     {% assign image_url = post.image %}
     {% endif %}
     <img src="{{ image_url | append: '/480x110' }}" class="card-img-top" alt="The featured image for this post">
     <div class="card-body">
-      <h5 class="card-title font-weight-light">
+      <h5 class="card-title font-weight-light d-inline-block">
         {{ post.title | escape }}
-      </h5>
-      <h6 class="card-subtitle mb-2 text-muted font-weight-light">
-        This article was last updated on {{ post.date | date_to_long_string }}
-      </h6>
-      <p class="card-text font-weight-light">
-        {{ post.excerpt | strip_html | truncate: 240 }}
+      </h5>   
+      {% if post.language %}
+      <p class="badge badge-dark font-weight-light text-inline">
+        {{ post.language }}
       </p>
-      <a href="{{ post.url }}" class="stretched-link"></a>
+      {% endif %}
+      <p class="card-text font-weight-light text-truncate" style="max-height: 350px;">
+        {{ post.excerpt | truncate: 280 | strip_html }}
+      </p>
     </div>
+    <div class="card-footer">
+      <small class="text-muted">
+        Last updated on {{ post.date | date_to_long_string }}
+      </small>
+    </div>
+    <a href="{{ post.url }}" class="stretched-link"></a>
   </div>
   {%- endif -%}
   {%- endfor -%}

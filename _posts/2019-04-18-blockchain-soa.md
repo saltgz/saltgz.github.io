@@ -2,12 +2,13 @@
 title: Exploiting Blockchain technology
 slug: blockchain-technology-introduction
 image: https://source.unsplash.com/lZzlQUblE_U
+language: italian
 categories: dissemination
 published: true
 ---
 
 ### Introduzione alla tecnologia Blockchain
-<span class="text-muted h4">con le architetture a "servizi"</span>
+<span class="text-muted h4">con le architetture a "servizi".</span>
 
 ---
 

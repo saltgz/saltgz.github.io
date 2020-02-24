@@ -3,11 +3,13 @@ title: Sistemi Operativi @ Informatica per il Management
 slug: operative-system-laboratory-computer-science-management
 image: https://source.unsplash.com/ZV7lnfyQLmA
 categories: teaching
+published: true
+language: italian
 ---
 
 ### Laboratorio di Sistemi Operativi 
 <p class="text-muted h4">Syllabus del corso per Informatica per il Management</p>
-<p class="text-success h5">Anno Accademico: 2020/2021</p>
+<p class="text-success h5">Anno Accademico: 2019/2020</p>
 
 ---
 

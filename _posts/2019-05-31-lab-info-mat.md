@@ -2,14 +2,17 @@
 title: Informatica @ Matematica
 image: https://source.unsplash.com/4W5WWKaxsKs
 categories: teaching
-published: false 
+published: false
+language: italian
 ---
 
-Laboratorio per Informatica, _A.A. 2018-2019_, **Laurea in Matematica**
-dell'**Università di Bologna**.
+### Laboratorio di Informatica 
+<p class="text-muted h4">Syllabus per Matematica</p>
+<p class="text-success h5">Anno Accademico: 2018/2019</p>
 
-Il corso è tenuto dal [Professor Maurizio
-Gabbrielli](http://cs.unibo.it/~gabbri) (prima parte) e dal [Dottor Giuseppe
+---
+
+Il corso è tenuto dal [Professor Maurizio Gabbrielli](http://cs.unibo.it/~gabbri) (prima parte) e dal [Dottor Giuseppe
 Lisanti](https://www.unibo.it/sitoweb/giuseppe.lisanti) (seconda parte), per
 maggiori informazioni si reinvia alla [pagina ufficiale del
 corso](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2018/323868).

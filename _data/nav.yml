@@ -5,6 +5,8 @@ items:
   url: /research/index.html
 - title: Teaching
   url: /teaching/index.html
+  - title: ML@BBS
+    url: /teaching/ml-bbs.html
 - title: Dissemination
   url: /dissemination/index.html
 - title: Contact

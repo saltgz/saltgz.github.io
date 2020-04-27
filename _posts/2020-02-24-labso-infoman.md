@@ -73,9 +73,9 @@ Le specifiche per la consegna del progetto per l'anno accademico 2019/2020 saran
 
 Un elenco dei **progetti** svolti dagli studenti negli anni passati:
 
-- per gli Anni Accademici precedenti al [2017/2018](https://saveriogiallorenzo.com/teaching/);
-- per [Anno Accademico 2017/2018](https://github.com/szingaro/jollar);
-- per [Anno Accademico 2018/2019](https://github.com/szingaro/jolella);
+- per gli Anni Accademici precedenti al 2017/2018 [potete trovare qui un elenco](https://saveriogiallorenzo.com/teaching/);
+- per Anno Accademico 2017/2018 [](https://github.com/szingaro/jollar);
+- per Anno Accademico 2018/2019 [](https://github.com/szingaro/jolella);
 
 #### Valutazione delle conoscenze
 

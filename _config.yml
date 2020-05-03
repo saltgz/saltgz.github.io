@@ -36,7 +36,7 @@ description: The blog of Stefano Pio Zingaro
 markdown: kramdown
 
 # Permalinks
-permalink: /:categories/:slug:output_ext
+# permalink: /:categories/:slug:output_ext
 
 # Build settings
 # theme: jekyll-theme-minimal-bootstrap
@@ -51,12 +51,12 @@ collections:
   pages:
     output: true
     permalink: /:name
-  categories:
-    output: true
-    permalink: /:name/
-  authors:
-    output: false
-    permalink: /:collection/:name/
+#  categories:
+#    output: true
+#    permalink: /:name/
+#  authors:
+#    output: false
+#    permalink: /:collection/:name/
 
 defaults:
   - scope:
@@ -69,13 +69,13 @@ defaults:
       type: pages
     values:
       layout: page
-  - scope:
-      path: "_categories"
-      type: categories
-    values:
-      layout: blog
-  - scope:
-      path: "_authors"
-      type: authors
-    values:
-      layout: blog
+#  - scope:
+#      path: "_categories"
+#      type: categories
+#    values:
+#      layout: blog
+#  - scope:
+#      path: "_authors"
+#      type: authors
+#    values:
+#      layout: blog

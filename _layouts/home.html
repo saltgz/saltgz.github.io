@@ -6,11 +6,6 @@ layout: default
   
   {%- for post in site.posts -%}
   <div class="card bg-light border-dark mb-3">
-    <!--{% assign image_url = 'https://source.unsplash.com/random' %}-->
-    <!--{% if post.image %}-->
-    <!--{% assign image_url = post.image %}-->
-    <!--{% endif %}-->
-    <!--<img src="{{ image_url | append: '/480x110' }}" class="card-img-top" alt="The featured image for this post">-->
     <div class="card-body">
       {% if post.language %}
       <p class="badge badge-dark font-weight-light text-inline">

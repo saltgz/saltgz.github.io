@@ -1,8 +1,9 @@
 header:
   content:
     left: >
-      <h4>Stefano Pio Zingaro's Blog</h4>
+      <a href="/" class="lead">Stefano Pio Zingaro's Blog</a>
     right: >
+      <a href="/contact" class="lead">About</a>
   google-analytics-id: UA-112361799-1
     
 main:

@@ -3,7 +3,7 @@ title: Contacts
 subtitle: instructions on how to find me
 ---
 
-You can generally found me at [Laboratorio S03 of the Department of Computer Science and Engineering, in Mura Anteo Zamboni 7, 40126 Bologna (ITALY)](http://w3w.co/rotaie.piastra.tavola). Back in the days, I also worked in these places:
+Not considering the actual global situation (😷). You can generally found me at [Laboratorio S03 of the Department of Computer Science and Engineering, in Mura Anteo Zamboni 7, 40126 Bologna (ITALY)](http://w3w.co/rotaie.piastra.tavola). Back in the days, I also worked in these places:
 
 - at the [Institut for Matematik og Datalogi Campusvej 55, Ø18-511a-2 5230 in Odense M (DENMARK)](http://w3w.co/invitato.inclinati.sostenute);
 

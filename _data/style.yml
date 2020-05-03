@@ -1,7 +1,7 @@
 header:
   content:
     left: >
-      <a class="site-title" href="/">Stefano Pio Zingaro's Blog</a>
+      <a class="display-4" href="/">Stefano Pio Zingaro's Blog</a>
     right: >
   google-analytics-id: UA-112361799-1
     

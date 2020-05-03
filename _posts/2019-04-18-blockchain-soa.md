@@ -1,5 +1,5 @@
 ---
-title: Exploiting Blockchain technology
+title: Blockchain e Architetture Orientate ai Servizi 
 slug: blockchain-technology-introduction
 image: https://source.unsplash.com/lZzlQUblE_U
 language: italian

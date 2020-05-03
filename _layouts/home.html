@@ -7,12 +7,12 @@ layout: default
   {%- for post in site.posts -%}
   <span class="py-2">
     {% if post.language %}
-    <p class="badge badge-dark font-weight-light text-inline">
+    <p class="badge badge-dark font-weight-light">
       {{ post.language }}
     </p>
     {% endif %}
     <a href="{{ post.url }}">
-        <h4 class="font-weight-light">
+        <h4 class="font-weight-light text-inline">
             {{ post.title | escape }}
         </h4>
     </a>

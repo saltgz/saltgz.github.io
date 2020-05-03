@@ -22,15 +22,17 @@ layout: default
     <!--{% endif %}-->
     <!--<img src="{{ image_url | append: '/480x110' }}" class="card-img-top" alt="The featured image for this post">-->
     <div class="card-body">
-      <h5 class="card-title font-weight-light d-inline-block">
-        {{ post.title | escape }}
-      </h5>   
       {% if post.language %}
       <p class="badge badge-dark font-weight-light text-inline">
         {{ post.language }}
       </p>
       {% endif %}
-      <p class="card-text font-weight-light text-truncate" style="max-height: 350px;">
+      
+      <h5 class="font-weight-light d-inline-block">
+        {{ post.title | escape }}
+      </h5>   
+
+      <p class="lead font-weight-light text-truncate" style="max-height: 350px;">
         {{ post.excerpt | truncate: 280 | strip_html }}
       </p>
     </div>

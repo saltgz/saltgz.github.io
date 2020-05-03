@@ -1,7 +1,7 @@
 header:
   content:
     left: >
-      <span class="h3 font-weight-light"><span class="text-primary">S</span>tefano <span class="text-primary">p</span>io <span class="text-primary">Z</span>ingaro</span><span class="h4  font-weight-light">&nbsp;&middot;&nbsp;Postdoc @ Università di Bologna</span>
+      <a class="site-title" href="/">Stefano Pio Zingaro's Blog</a>
     right: >
   google-analytics-id: UA-112361799-1
     

@@ -5,29 +5,19 @@ layout: default
 <div class="px-3">
   
   {%- for post in site.posts -%}
-  <div class="card bg-light border-dark mb-3">
-    <div class="card-body">
-      {% if post.language %}
-      <p class="badge badge-dark font-weight-light text-inline">
-        {{ post.language }}
-      </p>
-      {% endif %}
-      
-      <h5 class="font-weight-light d-inline-block">
-        {{ post.title | escape }}
-      </h5>   
-
-      <p class="lead font-weight-light text-truncate" style="max-height: 350px;">
-        {{ post.excerpt | truncate: 280 | strip_html }}
-      </p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">
-        Last updated on {{ post.date | date_to_long_string }}
-      </small>
-    </div>
-    <a href="{{ post.url }}" class="stretched-link"></a>
-  </div>
+  {% if post.language %}
+  <p class="badge badge-dark font-weight-light text-inline">
+    {{ post.language }}
+  </p>
+  {% endif %}
+  <a href="{{ post.url }}" class="text-reset">
+      <h4 class="font-weight-light d-inline-block">
+          {{ post.title | escape }}
+      </h4>
+  </a>
+  <small class="text-muted">
+    Last updated on {{ post.date | date_to_long_string }}
+  </small>
   {%- endfor -%}
 
 </div>

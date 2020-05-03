@@ -1,9 +1,9 @@
 header:
   content:
     left: >
-      <h3 class="font-weight-light"><a href="/" class="text-reset">Stefano Pio Zingaro's Blog</a></h3>
+      <h4 class="font-weight-light"><a href="/" class="text-reset">Stefano Pio Zingaro's Blog</a></h4>
     right: >
-      <h3 class="font-weight-light"><a href="/contact" class="text-reset">About</a></h3>
+      <h4 class="font-weight-light"><a href="/contact" class="text-reset">About</a></h4>
   google-analytics-id: UA-112361799-1
     
 main:

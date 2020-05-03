@@ -3,7 +3,7 @@ title: Sistemi Operativi @ Informatica per il Management
 slug: operative-system-laboratory-computer-science-management
 image: https://source.unsplash.com/ZV7lnfyQLmA
 categories: teaching
-published: false
+published: true
 language: italian
 
 ---

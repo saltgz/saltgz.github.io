@@ -3,13 +3,13 @@ layout: default
 ---
 
 <div class="px-3">
-  <h3 class="font-weight-light">
+  <h4 class="font-weight-light">
     {{ page.title | escape }}
-  </h3>
-  {% if page.subtitle %}
-  <h4 class="mb-2 text-muted font-weight-light">
-    {{ page.subtitle | escape }}
   </h4>
+  {% if page.subtitle %}
+  <h5 class="mb-2 text-muted font-weight-light">
+    {{ page.subtitle | escape }}
+  </h5>
   {% endif %}
 
   {%- for post in site.posts -%}

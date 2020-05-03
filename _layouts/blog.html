@@ -22,9 +22,9 @@ layout: default
     {% endif %}
     <img src="{{ image_url | append: '/480x110' }}" class="card-img-top" alt="The featured image for this post">
     <div class="card-body">
-      <h5 class="card-title font-weight-light d-inline-block">
+      <h4 class="card-title font-weight-light d-inline-block">
         {{ post.title | escape }}
-      </h5>   
+      </h4>   
       {% if post.language %}
       <p class="badge badge-dark font-weight-light text-inline">
         {{ post.language }}

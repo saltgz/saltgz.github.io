@@ -5,12 +5,7 @@ layout: default
 <div class="px-3">
   
   {%- for post in site.posts -%}
-  <span class="py-2">
-    {% if post.language %}
-    <p class="badge badge-dark font-weight-light">
-      {{ post.language }}
-    </p>
-    {% endif %}
+  <div class="py-2">
     <a href="{{ post.url }}">
         <h4 class="font-weight-light text-inline">
             {{ post.title | escape }}
@@ -19,7 +14,7 @@ layout: default
     <small class="text-muted">
       Last updated on {{ post.date | date_to_long_string }}
     </small>
-  </span>
+  </div>
   {%- endfor -%}
 
 </div>

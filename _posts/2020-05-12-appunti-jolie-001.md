@@ -73,5 +73,12 @@ Task jolie.net.AbstractCommChannel$ResponseReceiver$1@797e1208 rejected
 from java.util.concurrent.ThreadPoolExecutor@3c7c8343
 ```
 
-La parte del messaggio che ci interessa è quella relativa all'eccezione sollevata dal nostro interprete, e cioè `java.util.concurrent.RejectedExecutionException`. Evidentemente la gestione delle richieste concorrenti non è adeguata e dovremo ricorrere ad un costrutto specifico del linguaggio Jolie per gestire l'accesso alla risorsa: si tratta senza dubbio di `synchonized`, il quale ...
+La parte del messaggio che ci interessa è quella relativa all'eccezione sollevata dal nostro interprete, e cioè `java.util.concurrent.RejectedExecutionException`. Evidentemente la gestione delle richieste concorrenti non è adeguata e dovremo ricorrere ad un costrutto specifico del linguaggio Jolie per gestire l'accesso alla risorsa: si tratta senza dubbio di `synchonized`, il quale ci permette di **vincolare l'accesso alle variabili globali** (in modo molto simile a _Java_):
 
+```jolie
+synchronized( syncToken ) {
+    writeFile@File( { .filename=global.filename, ... } )( )
+}
+```
+
+Maggiori informazioni sull'uso del costrutto di sincronizzazione, insieme a tutorial ed esempi possono essere trovati [alla pagina dedicata nella docuementazione ufficiale di Jolie](https://jolielang.gitbook.io/docs/language-tools-and-standard-library/basics/processes). 

@@ -10,7 +10,7 @@ language: italian
 
 # Publisher e Writer in Jolie
 
-Per creare una comunicazione tra un _publisher_ - un servizio che vuole pubblicare un contenuto - ed un _writer_ - un servizio che ha la capacità di scrivere su un una risorsa - criamo, per prima cosa, l'interfaccia di comunicazione.
+Per creare una comunicazione tra un _publisher_ - un servizio che vuole pubblicare un contenuto - ed un _writer_ - un servizio che ha la capacità di scrivere su un una risorsa - per prima cosa, abbiamo bisogno di definire un'interfaccia di comunicazione.
 
 ```jolie
 interface IWriter {
@@ -19,7 +19,8 @@ interface IWriter {
 }
 ```
 
-Assumiamo che la risorsa sia un file e che il contenuto sia una stringa arbitraria inviata dal _publisher_. Il servizio _writer_ espone l'interfaccia `IWriter` attraverso una opportuna `InputPort` ed implementa il comportamento di `write`.
+Assumiamo qui che la risorsa sia un file e che il contenuto da scrivere sia una stringa arbitraria inviata dal _publisher_. 
+Il servizio _writer_ espone l'interfaccia `IWriter` attraverso una opportuna `InputPort` ed implementa il comportamento di `write` (l'implementazione la lasciamo al temerario lettore).
 
 Invochiamo l'avvio del servizio _writer_ con il seguente comando da shell:
 

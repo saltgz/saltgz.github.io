@@ -1,12 +1,15 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="{{ site.description | strip_html }}" />
-<meta name="author" content="Stefano Pio Zingaro" />
+<meta name="author" content="{{ site.author }}" />
 <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
 
 <title>
-  {{ site.description | strip_html }}{%- if page.title -%}&nbsp;&#124;&nbsp;{{ page.title }}&nbsp;{%- endif -%}
+  {{ site.title | strip_html }}{%- if page.title -%}&nbsp;&#124;&nbsp;{{ page.title }}&nbsp;{%- endif -%}
 </title>
+
+<!-- RSS -->
+<link href='{{ site.url }}/feed.xml' rel='alternate' type='application/atom+xml'>
 
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="{% link assets/favicon_io/apple-touch-icon.png %}">

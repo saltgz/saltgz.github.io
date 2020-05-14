@@ -3,7 +3,6 @@ port: 9001
 host: "localhost"
 baseurl: "" 
 detach: false
-url: "https://spz.netlify.app/" 
 
 # Build Command Options
 show_drafts: false
@@ -21,16 +20,13 @@ exclude:
   - .asset-cache
   - .jekyll-assets-cache
   - .sass-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README
 
 # Meta
+author: pio_zingaro
 lang: en-US
-description: The blog of Stefano Pio Zingaro
-# social_image_path:   /assets/img/brand/social.jpg
-# social_logo_path:    /assets/img/brand/social.jpg
+title: pio_zingaro's blog
+description: cs teaching/learning collection of posts
+url: "https://spz.netlify.app/" 
 
 # Dependencies
 markdown: kramdown
@@ -43,8 +39,6 @@ markdown: kramdown
 plugins: # some plugins need by the theme
   - jekyll-feed
   - jekyll-sitemap
-feed:
-  path: atom.xml
 
 # Collections settings for Categories and Authors posts list pages
 collections:

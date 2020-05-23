@@ -64,9 +64,9 @@ La documentazione per il progetto dell'anno accademico 2019/20 è distribuito a 
 
 Le **scadenze importanti** sono:
 
-Creazione dei gruppi - _31 Maggio 2020_
-Prima sessione consegna del progetto - _27 Luglio 2020_
-Seconda sesssione consegna del progetto - _28 Settembre 2020_
+1. Creazione dei gruppi - _31 Maggio 2020_
+2. Prima sessione consegna del progetto - _27 Luglio 2020_
+3. Seconda sesssione consegna del progetto - _28 Settembre 2020_
 
 Un elenco dei **progetti** svolti dagli studenti negli anni passati:
 

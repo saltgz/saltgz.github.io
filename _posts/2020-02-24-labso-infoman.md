@@ -60,17 +60,13 @@ Tutte le slides ed il codice Jolie sono stati prodotti a partire dal materiale d
 #### Progetto
 
 Le specifiche per la consegna del progetto per l'anno accademico 2019/2020 saranno rese note durante le lezioni del corso.
-<!-- Il progetto dell'anno accademico 2019/20 è distribuito su GitHub a [questo link](https://github.com/szingaro/jolella). -->
+La documentazione per il progetto dell'anno accademico 2019/20 è distribuito a [questo link](https://szingaro.github.io/lab-so-infoman/).
 
-<!--Le **scadenze importanti** sono:-->
+Le **scadenze importanti** sono:
 
-<!--- Creazione dei gruppi - _20 Maggio 2020_-->
-<!--- Prima sessione consegna del progetto - _1 Luglio 2020_-->
-<!--- Seconda sesssione consegna del progetto - _30 Settembre 2020_ -->
-
-<!--| #   | Documentazione                                                                              |-->
-<!--| --- | ------------------------------------------------------------------------------------------- |-->
-<!--| 1   | [Documentazione di progetto](https://github.com/szingaro/jolella/blob/master/docs/main.pdf) | -->
+Creazione dei gruppi - _31 Maggio 2020_
+Prima sessione consegna del progetto - _27 Luglio 2020_
+Seconda sesssione consegna del progetto - _28 Settembre 2020_
 
 Un elenco dei **progetti** svolti dagli studenti negli anni passati:
 
